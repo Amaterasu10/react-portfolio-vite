@@ -7,3 +7,18 @@
     @apply flex justify-between w-40 mx-auto bg-emerald-500;
   }
 }
+
+@font-face {
+  font-family: "poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "poppins-semibold";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "waterbrush";
+  src: url("./assets/fonts/WaterBrush-Regular.ttf");
+}
