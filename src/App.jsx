@@ -4,8 +4,8 @@ import TopNav from './components/TopNav';
 function App() {
 
   return (
-    <div className="App">
-      <header>
+    <div className="App font-poppins">
+      <header className='fixed w-full'>
         <TopNav/>
       </header>
       <main >
