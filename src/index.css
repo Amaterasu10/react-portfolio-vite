@@ -4,7 +4,7 @@
 
 @layer components {
   .nav__ul {
-    @apply flex justify-between w-40 mx-auto bg-emerald-500;
+    @apply flex justify-between w-40 mx-auto;
   }
 }
 
