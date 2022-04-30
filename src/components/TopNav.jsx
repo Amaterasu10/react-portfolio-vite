@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 export default function TopNav() {
   return (
-    <nav className='flex'>
-      <div className='inline-block p-3'>
+    <nav className='flex relative'>
+      <div className='inline-block p-3 absolute'>
         <FaBars size="2em"/>
       </div>
-      <ul className='nav__ul h-fit'>
+      <ul className='nav__ul h-fit p-3'>
         
         <li className='inline-block'>
           <Link to="/">Home</Link>
