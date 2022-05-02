@@ -1,6 +1,7 @@
 export default function About() {
   return (
-    <section className="h-screen pt-16 px-9 grid place-content-center place-items-center">
+    <div>
+      <section className="h-screen pt-16 px-9 grid place-content-center place-items-center">
         <h2 className="p-4">[About me]</h2>
 
         <section className="max-w-lg">
@@ -14,5 +15,13 @@ export default function About() {
           </p>
         </section>
       </section>
+
+      <section className="h-screen pt-16 px-9 grid place-content-center place-items-center">
+        <h2 className="p-4">[Tech stack]</h2>
+        <section className="max-w-lg bg-slate-200 p-3 shadow-inner rounded-lg">
+          Html, CSS, Sass, Tailwind, JavaScript, React.js, Typscript, Vite
+        </section>
+      </section>
+    </div>
   )
 }
