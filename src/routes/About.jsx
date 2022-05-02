@@ -28,7 +28,7 @@ export default function About() {
 
       <section className="h-screen px-9 grid place-content-center place-items-center">
         <h2 className="p-4">[Tech stack]</h2>
-        <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-around flex-wrap">
+        <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-between flex-wrap">
           
           <div className='p-2'>
             <SiHtml5 title='Html5' className='text-xl md:text-4xl text-red-600 mx-auto'/> 
@@ -58,8 +58,8 @@ export default function About() {
           </div>
 
           <section className=' mt-5 w-full rounded-lg bg-slate-300' title='still learning'>
-            <h3 className='text-center'>currently learning</h3>
-            <div className='flex justify-around flex-wrap '>
+            <h3 className='text-center'>[currently learning]</h3>
+            <div className='flex justify-around flex-wrap mt-2'>
               <div className="p-2">
                 <SiReact title='React.js' className='text-xl md:text-4xl text-cyan-500 mx-auto'/> 
                 <p>React.js</p>
