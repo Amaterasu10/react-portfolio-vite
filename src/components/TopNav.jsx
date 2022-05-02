@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 
 export default function TopNav() {
   return (
-    <nav className='flex relative'>
-      <div className='inline-block p-3 absolute'>
-        <FaBars size="2em"/>
+    <nav className='flex relative bg-slate-50'>
+      <div className='inline-block p-2 absolute'>
+        <FaBars size="2em" className='hover:cursor-pointer hover:bg-slate-200'/> 
       </div>
       <ul className='nav__ul h-fit p-3'>
         
-        <li className='inline-block'>
+        <li className='inline-block hover:bg-slate-200'>
           <Link to="/">Home</Link>
         </li>
 
-        <li className='inline-block'>
+        <li className='inline-block hover:bg-slate-200'>
           <Link to="/about">About</Link>
         </li>
       </ul>
