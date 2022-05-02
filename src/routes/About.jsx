@@ -57,7 +57,7 @@ export default function About() {
             <p  className='text-center'>JavaScript</p>
           </div>
 
-          <section className=' mt-5 w-full rounded-lg bg-slate-300' title='still learning'>
+          <section className='p-4 mt-5 w-full rounded-lg bg-slate-300' title='still learning'>
             <h3 className='text-center'>[currently learning]</h3>
             <div className='flex justify-around flex-wrap mt-2'>
               <div className="p-2 min-w-[89px]">
