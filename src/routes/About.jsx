@@ -28,7 +28,7 @@ export default function About() {
 
       <section className="h-screen px-9 grid place-content-center place-items-center">
         <h2 className="p-4">[Tech stack]</h2>
-        <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-between flex-wrap">
+        <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-around flex-wrap">
           
           <div className='p-2 min-w-[89px]'>
             <SiHtml5 title='Html5' className='text-xl md:text-4xl text-red-600 mx-auto'/> 
