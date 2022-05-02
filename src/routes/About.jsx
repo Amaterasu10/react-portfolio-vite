@@ -30,49 +30,49 @@ export default function About() {
         <h2 className="p-4">[Tech stack]</h2>
         <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-between flex-wrap">
           
-          <div className='p-2'>
+          <div className='p-2 min-w-[89px]'>
             <SiHtml5 title='Html5' className='text-xl md:text-4xl text-red-600 mx-auto'/> 
-            <p>Html</p>
+            <p  className='text-center'>Html</p>
           </div>
 
-          <div className="p-2">
+          <div className="p-2 min-w-[89px]">
           <SiCss3 title='CSS3' className='text-xl md:text-4xl text-blue-600 mx-auto'/> 
-            <p>CSS</p>
+            <p  className='text-center'>CSS</p>
           </div>
 
-          <div className="p-2">
+          <div className="p-2 min-w-[89px]">
           <SiSass title='Sass' className='text-xl md:text-4xl text-pink-600 mx-auto'/> 
-            <p>Sass</p>
+            <p  className='text-center'>Sass</p>
           </div>
 
-          <div className="p-2">
+          <div className="p-2 min-w-[89px]">
           <SiTailwindcss title='TailwindCSS' className='text-xl md:text-4xl text-teal-500 mx-auto'/> 
-            <p>Tailwind</p>
+            <p  className='text-center'>Tailwind</p>
           </div>
 
-          <div className="p-2">
+          <div className="p-2 min-w-[89px]">
             <div className='bg-black w-fit mx-auto'>
               <SiJavascript title='JavaScript' className='text-xl md:text-4xl text-yellow-500'/> 
             </div>
-            <p>JavaScript</p>
+            <p  className='text-center'>JavaScript</p>
           </div>
 
           <section className=' mt-5 w-full rounded-lg bg-slate-300' title='still learning'>
             <h3 className='text-center'>[currently learning]</h3>
             <div className='flex justify-around flex-wrap mt-2'>
-              <div className="p-2">
+              <div className="p-2 min-w-[89px]">
                 <SiReact title='React.js' className='text-xl md:text-4xl text-cyan-500 mx-auto'/> 
-                <p>React.js</p>
+                <p  className='text-center'>React.js</p>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 min-w-[89px]">
                 <SiTypescript title='Typscript' className='text-xl md:text-4xl text-sky-700 mx-auto'/>
-                <p>Typscript</p> 
+                <p  className='text-center'>Typscript</p> 
               </div>
               
-              <div className="p-2">
+              <div className="p-2 min-w-[89px]">
                 <SiVite title='Vite' className='text-xl md:text-4xl text-violet-600 mx-auto'/>
-                <p>Vite</p>
+                <p className='text-center'>Vite</p>
               </div>
             </div>
           </section>
