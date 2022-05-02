@@ -31,40 +31,48 @@ export default function About() {
         <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-around flex-wrap">
           
           <div className='p-2'>
-            <SiHtml5 title='Html5' className='text-xl md:text-4xl text-red-600'/>
+            <SiHtml5 title='Html5' className='text-xl md:text-4xl text-red-600 mx-auto'/> 
+            <p>Html</p>
           </div>
 
           <div className="p-2">
-          <SiCss3 title='CSS3' className='text-xl md:text-4xl text-blue-600'/> 
+          <SiCss3 title='CSS3' className='text-xl md:text-4xl text-blue-600 mx-auto'/> 
+            <p>CSS</p>
           </div>
 
           <div className="p-2">
-          <SiSass title='Sass' className='text-xl md:text-4xl text-pink-600'/> 
+          <SiSass title='Sass' className='text-xl md:text-4xl text-pink-600 mx-auto'/> 
+            <p>Sass</p>
           </div>
 
           <div className="p-2">
-          <SiTailwindcss title='TailwindCss' className='text-xl md:text-4xl text-teal-500'/> 
+          <SiTailwindcss title='TailwindCSS' className='text-xl md:text-4xl text-teal-500 mx-auto'/> 
+            <p>Tailwind</p>
           </div>
 
           <div className="p-2">
-            <div className='bg-black'>
+            <div className='bg-black w-fit mx-auto'>
               <SiJavascript title='JavaScript' className='text-xl md:text-4xl text-yellow-500'/> 
             </div>
+            <p>JavaScript</p>
           </div>
 
           <section className=' mt-5 w-full rounded-lg bg-slate-300' title='still learning'>
             <h3 className='text-center'>currently learning</h3>
             <div className='flex justify-around flex-wrap '>
               <div className="p-2">
-                <SiReact title='React.js' className='text-xl md:text-4xl text-cyan-500'/> 
+                <SiReact title='React.js' className='text-xl md:text-4xl text-cyan-500 mx-auto'/> 
+                <p>React.js</p>
               </div>
 
               <div className="p-2">
-                <SiTypescript title='Typscript' className='text-xl md:text-4xl text-sky-700'/> 
+                <SiTypescript title='Typscript' className='text-xl md:text-4xl text-sky-700 mx-auto'/>
+                <p>Typscript</p> 
               </div>
               
               <div className="p-2">
-                <SiVite title='Vite' className='text-xl md:text-4xl text-violet-600'/>
+                <SiVite title='Vite' className='text-xl md:text-4xl text-violet-600 mx-auto'/>
+                <p>Vite</p>
               </div>
             </div>
           </section>
