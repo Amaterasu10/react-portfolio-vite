@@ -10,6 +10,10 @@
   .button-link {
     @apply bg-slate-100 hover:bg-slate-200 px-7 py-1 border-2 border-solid border-black;
   }
+
+  .center-everything {
+    @apply h-screen grid place-content-center place-items-center;
+  }
 }
 
 @font-face {
