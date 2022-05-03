@@ -8,7 +8,7 @@ export default function About() {
         <section className="max-w-lg">
           <p className="text-justify mb-5">
             Hi, my name is <span className="text-emerald-500">Hinrich</span>.<br/>
-            I am currently a 3rd year undergrad studying at AMA Computer College  and an intern at <a href="http://poblacion.ph/" className="text-emerald-500 underline">Poblacion.ph</a> which is a startup Ecommerce company.
+            I am currently a 3rd year undergrad studying at AMA Computer College  and an intern at <a href="http://poblacion.ph/" className="text-emerald-500 underline">Poblacion.ph</a> which is a startup eCommerce company.
           </p>
 
           <p className="text-justify mb-5">
