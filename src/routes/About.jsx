@@ -10,8 +10,8 @@ import {
 } from 'react-icons/si';
 export default function About() {
   return (
-    <div>
-      <section className="h-screen px-9 grid place-content-center place-items-center">
+    <div className='p-9'>
+      <section className="h-screen grid place-content-center place-items-center">
         <h2 className="p-4">[About me]</h2>
 
         <section className="max-w-lg">
@@ -26,7 +26,7 @@ export default function About() {
         </section>
       </section>
 
-      <section className="h-screen px-9 grid place-content-center place-items-center">
+      <section className="h-screen grid place-content-center place-items-center">
         <h2 className="p-4">[Tech stack]</h2>
         <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-around flex-wrap">
           
