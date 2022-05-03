@@ -36,8 +36,8 @@ export default function TechStack() {
             </div>
 
             <div className="p-2 min-w-[89px]">
-                <div className='bg-black w-fit'>
-                    <SiJavascript title='JavaScript' className='icon text-yellow-500' /> 
+                <div className='bg-black w-fit mx-auto'>
+                    <SiJavascript title='JavaScript' className='icon text-yellow-500 mx-0' /> 
                 </div>
                 <p className='text-center'>JavaScript</p>
             </div>
