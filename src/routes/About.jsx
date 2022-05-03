@@ -31,28 +31,28 @@ export default function About() {
         <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-around flex-wrap">
           
           <div className='p-2 min-w-[89px]'>
-            <SiHtml5 title='Html5' className='text-xl md:text-4xl text-red-600 mx-auto'/> 
+            <SiHtml5 title='Html5' className='icon text-red-600 mx-auto'/> 
             <p  className='text-center'>Html</p>
           </div>
 
           <div className="p-2 min-w-[89px]">
-          <SiCss3 title='CSS3' className='text-xl md:text-4xl text-blue-600 mx-auto'/> 
+          <SiCss3 title='CSS3' className='icon text-blue-600 mx-auto'/> 
             <p  className='text-center'>CSS</p>
           </div>
 
           <div className="p-2 min-w-[89px]">
-          <SiSass title='Sass' className='text-xl md:text-4xl text-pink-600 mx-auto'/> 
+          <SiSass title='Sass' className='icon text-pink-600 mx-auto'/> 
             <p  className='text-center'>Sass</p>
           </div>
 
           <div className="p-2 min-w-[89px]">
-          <SiTailwindcss title='TailwindCSS' className='text-xl md:text-4xl text-teal-500 mx-auto'/> 
+          <SiTailwindcss title='TailwindCSS' className='icon text-teal-500 mx-auto'/> 
             <p  className='text-center'>Tailwind</p>
           </div>
 
           <div className="p-2 min-w-[89px]">
             <div className='bg-black w-fit mx-auto'>
-              <SiJavascript title='JavaScript' className='text-xl md:text-4xl text-yellow-500'/> 
+              <SiJavascript title='JavaScript' className='icon text-yellow-500'/> 
             </div>
             <p  className='text-center'>JavaScript</p>
           </div>
@@ -61,17 +61,17 @@ export default function About() {
             <h3 className='text-center'>[currently learning]</h3>
             <div className='flex justify-around flex-wrap mt-2'>
               <div className="p-2 min-w-[89px]">
-                <SiReact title='React.js' className='text-xl md:text-4xl text-cyan-500 mx-auto'/> 
+                <SiReact title='React.js' className='icon text-cyan-500 mx-auto'/> 
                 <p  className='text-center'>React.js</p>
               </div>
 
               <div className="p-2 min-w-[89px]">
-                <SiTypescript title='Typscript' className='text-xl md:text-4xl text-sky-700 mx-auto'/>
+                <SiTypescript title='Typscript' className='icon text-sky-700 mx-auto'/>
                 <p  className='text-center'>Typscript</p> 
               </div>
               
               <div className="p-2 min-w-[89px]">
-                <SiVite title='Vite' className='text-xl md:text-4xl text-violet-600 mx-auto'/>
+                <SiVite title='Vite' className='icon text-violet-600 mx-auto'/>
                 <p className='text-center'>Vite</p>
               </div>
             </div>
