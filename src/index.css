@@ -20,7 +20,7 @@
   }
 
   .secondary-text {
-    @apply text-emerald-600;
+    @apply text-emerald-500;
   }
 }
 
