@@ -16,7 +16,7 @@
   }
 
   .icon {
-    @apply text-xl md:text-4xl;
+    @apply text-xl md:text-4xl mx-auto;
   }
 }
 
