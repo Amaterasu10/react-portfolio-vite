@@ -6,6 +6,10 @@
   .nav__ul {
     @apply flex justify-between w-40 m-auto;
   }
+
+  .button-link {
+    @apply bg-slate-100 hover:bg-slate-200 px-7 py-1 border-2 border-solid border-black;
+  }
 }
 
 @font-face {
