@@ -1,5 +1,15 @@
 import React from "react";
-export default function TechStack({}) {
+import { 
+    SiHtml5, 
+    SiCss3,
+    SiSass, 
+    SiTailwindcss, 
+    SiJavascript, 
+    SiReact, 
+    SiTypescript, 
+    SiVite 
+} from 'react-icons/si';
+export default function TechStack() {
   return (
     <section className="center-everything">
         <h2 className="p-4">[Tech stack]</h2>

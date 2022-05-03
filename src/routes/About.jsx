@@ -1,14 +1,4 @@
-import { TechStack } from './TechStack';
-import { 
-  SiHtml5, 
-  SiCss3,
-  SiSass, 
-  SiTailwindcss, 
-  SiJavascript, 
-  SiReact, 
-  SiTypescript, 
-  SiVite 
-} from 'react-icons/si';
+import TechStack from '../components/TechStack';
 export default function About() {
   return (
     <div className='p-9'>
