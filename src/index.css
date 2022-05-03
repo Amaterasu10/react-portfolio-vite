@@ -18,6 +18,10 @@
   .icon {
     @apply text-xl md:text-4xl mx-auto;
   }
+
+  .secondary-text {
+    @apply text-emerald-600;
+  }
 }
 
 @font-face {
