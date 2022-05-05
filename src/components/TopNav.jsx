@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom';
 export default function TopNav() {
   return (
     <nav className='flex relative bg-slate-50'>
-      <div className='inline-block p-2 absolute'>
-        <FaBars size="2em" className='hover:cursor-pointer hover:bg-slate-200'/> 
-      </div>
+      { false &&
+        <div className='inline-block p-2 absolute'>
+          <FaBars size="2em" className='hover:cursor-pointer hover:bg-slate-200'/> 
+        </div>
+      }
       <ul className='nav__ul h-fit p-3'>
         
         <li className='inline-block hover:bg-slate-200'>
