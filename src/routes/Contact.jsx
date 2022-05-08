@@ -8,6 +8,7 @@ export default function Contact() {
         name="contact" 
         method="POST" 
         data-netlify="true" 
+        data-netlify-recaptcha="true"
         className='w-full border-2 grid-center'
         >
           <input type="hidden" name="form-name" value="contact" />
