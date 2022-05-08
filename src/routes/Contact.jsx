@@ -7,7 +7,6 @@ export default function Contact() {
         <form 
         name="contact" 
         method="POST" 
-        data-netlify-recaptcha="true"
         data-netlify="true" 
         className='w-full border-2 grid-center'
         >
@@ -30,7 +29,7 @@ export default function Contact() {
                 <label>Message<br/> <textarea className='border-2 p-2 w-full' name="message"></textarea></label>
               </div>
             </p>
-            <div data-netlify-recaptcha="true"></div>
+            <div data-netlify-recaptcha="true">recaptcha</div>
             <div className='p-2 w-full text-center'>
               <button className='button-link' type="submit">Send</button>
             </div>
