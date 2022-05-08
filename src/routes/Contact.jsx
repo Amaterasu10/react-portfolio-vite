@@ -4,7 +4,13 @@ export default function Contact() {
   return (
     <div className="h-screen grid-center p-9">
       <div className='w-full max-w-md'>
-        <form name="contact" method="POST" data-netlify="true" className='w-full border-2 grid-center'>
+        <form 
+        name="contact" 
+        method="POST" 
+        data-netlify-recaptcha="true"
+        data-netlify="true" 
+        className='w-full border-2 grid-center'
+        >
           <input type="hidden" name="form-name" value="contact" />
           <div className='bg-slate-100 w-full p-3 text-center'>
             Get in touch
@@ -24,6 +30,7 @@ export default function Contact() {
                 <label>Message<br/> <textarea className='border-2 p-2 w-full' name="message"></textarea></label>
               </div>
             </p>
+            <div data-netlify-recaptcha="true"></div>
             <div className='p-2 w-full text-center'>
               <button className='button-link' type="submit">Send</button>
             </div>
