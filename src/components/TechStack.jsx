@@ -9,6 +9,8 @@ import {
     SiTypescript, 
     SiVite 
 } from 'react-icons/si';
+
+import vite from '../favicon.svg'
 export default function TechStack() {
   return (
     <section className="center-everything">
@@ -56,7 +58,9 @@ export default function TechStack() {
                     </div>
                     
                     <div className="p-2 min-w-[89px]">
-                    <SiVite title='Vite' className='icon text-violet-600' />
+                    {/* <SiVite title='Vite' className='icon text-violet-600' /> */}
+                    <img src={vite} className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
+                    
                     <p className='text-center'>Vite</p>
                     </div>
                 </div>
