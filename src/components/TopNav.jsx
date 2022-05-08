@@ -17,6 +17,10 @@ export default function TopNav() {
         </li>
 
         <li className='inline-block hover:bg-slate-200'>
+          <Link to="/contact">Contact</Link>
+        </li>
+
+        <li className='inline-block hover:bg-slate-200'>
           <Link to="/about">About</Link>
         </li>
       </ul>
