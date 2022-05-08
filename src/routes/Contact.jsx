@@ -5,6 +5,7 @@ export default function Contact() {
     <div className="h-screen grid-center p-9">
       <div className='w-full max-w-md'>
         <form name="contact" method="POST" data-netlify="true" className='w-full border-2 grid-center'>
+          <input type="hidden" name="form-name" value="contact" />
           <div className='bg-slate-100 w-full p-3 text-center'>
             Get in touch
           </div>
