@@ -3,6 +3,7 @@ import * as ReactDOMClient from 'react-dom/client';
 
 import App from './App';
 import Home from './routes/Home';
+import Contact from './routes/Contact';
 import About from './routes/About';
 
 import {
@@ -20,6 +21,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
+        <Route path='contact' element={<Contact />} />
         <Route path='about' element={<About />} />
       </Route>
     </Routes>
