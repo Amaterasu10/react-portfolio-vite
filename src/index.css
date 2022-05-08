@@ -4,7 +4,7 @@
 
 @layer components {
   .nav__ul {
-    @apply flex justify-between w-40 m-auto;
+    @apply flex justify-around w-80 m-auto;
   }
 
   .button-link {
