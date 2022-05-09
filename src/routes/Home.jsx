@@ -2,7 +2,7 @@ import resume from "../assets/files/resume.pdf"
 export default function Home() {
   return (
     <>
-      <section className="p-5 center-everything  items-center h-full">
+      <section className="p-5 center-everything">
         <div className="w-fit p-5">
           
           <h2 
