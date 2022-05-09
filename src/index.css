@@ -12,7 +12,7 @@
   }
 
   .center-everything {
-    @apply h-screen grid place-content-center place-items-center;
+    @apply h-full grid place-content-center place-items-center;
   }
 
   .grid-center {
