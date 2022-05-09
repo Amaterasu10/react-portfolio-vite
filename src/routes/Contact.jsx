@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className="h-full grid-center">
-      <div className='w-full max-w-md'>
+    <div className="min-h-screen h-fit grid-center pt-12">
+      <div className='w-full max-w-md my-5'>
         <form 
         name="contact" 
         method="POST" 
