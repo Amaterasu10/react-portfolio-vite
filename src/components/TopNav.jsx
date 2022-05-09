@@ -12,15 +12,15 @@ export default function TopNav() {
       }
       <ul className='nav__ul h-fit p-3'>
         
-        <li className='inline-block hover:bg-slate-200'>
+        <li className='inline-block hover:underline'>
           <Link to="/">Home</Link>
         </li>
 
-        <li className='inline-block hover:bg-slate-200'>
+        <li className='inline-block hover:underline'>
           <Link to="/contact">Contact</Link>
         </li>
 
-        <li className='inline-block hover:bg-slate-200'>
+        <li className='inline-block hover:underline'>
           <Link to="/about">About</Link>
         </li>
       </ul>
