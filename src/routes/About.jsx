@@ -1,7 +1,7 @@
 import TechStack from '../components/TechStack';
 export default function About() {
   return (
-    <>
+    <div className='p-5'>
       <section className="center-everything">
         <h2 className="p-4">[About me]</h2>
 
@@ -18,6 +18,6 @@ export default function About() {
       </section>
 
       <TechStack />
-    </>
+    </div>
   )
 }
