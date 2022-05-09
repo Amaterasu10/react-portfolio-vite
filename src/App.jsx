@@ -8,7 +8,7 @@ function App() {
       <header className='fixed w-full'>
         <TopNav/>
       </header>
-      <main >
+      <main className='h-[calc(100vh-3rem)] pt-12'>
         <Outlet/>
       </main>
     </div>
