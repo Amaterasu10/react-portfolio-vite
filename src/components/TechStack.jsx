@@ -9,11 +9,22 @@ import {
     SiTypescript,
 } from 'react-icons/si';
 
+const date = () => {
+    const startedLearning = new Date(2020,5, 21);
+    const currentDate = new Date();
+
+    const difference = Math.abs(currentDate - startedLearning);
+    const days = difference/(1000 * 3600 * 24)
+    const years = ( (days/30) / 12 ).toFixed(1);
+    
+    return parseFloat(years);
+}
+
 import vite from '../favicon.svg'
 export default function TechStack() {
   return (
     <>
-        <h2 className="p-4 text-4xl text-center">Tech Stack</h2>
+        <h2 onClick={date} className="p-4 text-4xl text-center">Tech Stack</h2>
         <section className="w-fit max-w-lg p-5 flex justify-around flex-wrap">
             
             <div className='p-2 min-w-[89px]'>
