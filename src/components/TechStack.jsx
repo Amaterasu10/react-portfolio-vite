@@ -48,19 +48,18 @@ export default function TechStack() {
                 <h3 className='text-3xl text-center'>Learning</h3>
                 <div className='flex justify-around flex-wrap mt-2'>
                     <div className="p-2 min-w-[89px]">
-                    <SiReact title='React.js' className='icon text-cyan-500' /> 
-                    <p className='text-center'>React.js</p>
+                        <SiReact title='React.js' className='icon text-cyan-500' /> 
+                        <p className='text-center'>React.js</p>
                     </div>
 
                     <div className="p-2 min-w-[89px]">
-                    <SiTypescript title='Typscript' className='icon text-sky-700' />
-                    <p className='text-center'>Typscript</p> 
+                        <SiTypescript title='Typscript' className='icon text-sky-700' />
+                        <p className='text-center'>Typscript</p> 
                     </div>
                     
                     <div className="p-2 min-w-[89px]">
-                    <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
-                    
-                    <p className='text-center'>Vite</p>
+                        <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
+                        <p className='text-center'>Vite</p>
                     </div>
                 </div>
             </section>
