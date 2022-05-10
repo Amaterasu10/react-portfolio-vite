@@ -58,7 +58,6 @@ export default function TechStack() {
                     </div>
                     
                     <div className="p-2 min-w-[89px]">
-                    {/* <SiVite title='Vite' className='icon text-violet-600' /> */}
                     <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
                     
                     <p className='text-center'>Vite</p>
