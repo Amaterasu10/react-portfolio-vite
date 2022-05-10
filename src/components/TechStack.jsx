@@ -6,8 +6,7 @@ import {
     SiTailwindcss, 
     SiJavascript, 
     SiReact, 
-    SiTypescript, 
-    SiVite 
+    SiTypescript,
 } from 'react-icons/si';
 
 import vite from '../favicon.svg'
