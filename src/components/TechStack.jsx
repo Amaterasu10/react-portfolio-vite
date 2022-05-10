@@ -13,7 +13,7 @@ import {
 import vite from '../favicon.svg'
 export default function TechStack() {
   return (
-    <section className="center-everything">
+    <>
         <h2 className="p-4">[Tech stack]</h2>
         <section className="w-fit max-w-lg bg-slate-200 p-5 shadow-inner rounded-lg flex justify-around flex-wrap">
             
@@ -59,14 +59,14 @@ export default function TechStack() {
                     
                     <div className="p-2 min-w-[89px]">
                     {/* <SiVite title='Vite' className='icon text-violet-600' /> */}
-                    <img src={vite} className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
+                    <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
                     
                     <p className='text-center'>Vite</p>
                     </div>
                 </div>
             </section>
         </section>
-    </section>
+    </>
   )
 }
   
