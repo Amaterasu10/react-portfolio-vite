@@ -23,6 +23,9 @@ export default function About() {
       </section>
 
       <TechStack />
+      <section>
+        
+      </section>
     </div>
   )
 }
