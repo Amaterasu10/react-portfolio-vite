@@ -22,9 +22,8 @@ export default function About() {
         </section>
       </section>
 
+      <section className='min-h-screen h-fit grid place-content-center'>
       <TechStack />
-      <section>
-        
       </section>
     </div>
   )
