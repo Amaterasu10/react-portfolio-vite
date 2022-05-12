@@ -15,6 +15,7 @@ export default function Contact() {
             Get in touch
           </div>
           <section className='w-full p-3'>
+
             <div>
               <div className='mt-5'>
                 <label>Your Name<br/> <input className='border-2 p-2 w-full' type="text" name="name" /></label><br/>
@@ -24,14 +25,14 @@ export default function Contact() {
               </div>
             </div>
 
-            <p>
-              <div className='mt-5'>
-                <label>Message<br/> <textarea className='border-2 p-2 w-full' name="message"></textarea></label>
-              </div>
-            </p>
+            <div className='mt-5'>
+              <label>Message<br/> <textarea className='border-2 p-2 w-full' name="message"></textarea></label>
+            </div>
+
             <div className='p-2 w-full text-center'>
               <button className='button-link' type="submit">Send</button>
             </div>
+            
           </section>
         </form>
       </div>
