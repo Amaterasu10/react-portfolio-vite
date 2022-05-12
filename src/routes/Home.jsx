@@ -2,16 +2,21 @@ import resume from "../assets/files/resume.pdf";
 export default function Home() {
   return (
     <>
-      <section className="p-5 min-h-screen h-fit flex items-center bg-[url('./assets/images/blob.svg')] bg-no-repeat bg-right">
-        {/* <img src={blob} alt="" /> */}
-        <div className="w-fit p-5 pl-24">
+      <section 
+        className="
+        p-5 
+        min-h-screen h-fit
+        grid sm:flex place-items-center
+        md:bg-[url('./assets/images/blob.svg')] bg-no-repeat bg-right"
+      >
+        <div className="w-fit p-5 sm:pl-24">
           <h2 
-            className="pb-2 text-center sm:text-left text-lg sm:text-3xl md:text-6xl text-stone-900">
+            className="pb-2 text-center sm:text-left text-3xl md:text-6xl text-stone-900">
             Hi, I'm Hinrich
           </h2>
 
           <h2 
-            className="text-center sm:text-left pb-1 sm:text-2xl md:text-5xl text-stone-700">
+            className="text-center sm:text-left pb-1 text-2xl md:text-5xl text-stone-700">
             Welcome to my portfolio
           </h2>
 
