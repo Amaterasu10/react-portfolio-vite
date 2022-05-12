@@ -8,7 +8,7 @@
   }
 
   .button-link {
-    @apply bg-slate-100 hover:bg-slate-200 px-7 py-1 border-2 border-solid border-black;
+    @apply px-7 py-2 border-2 border-solid border-black;
   }
 
   .center-everything {
