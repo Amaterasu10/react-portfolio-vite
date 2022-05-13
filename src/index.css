@@ -31,14 +31,17 @@
 @font-face {
   font-family: "poppins";
   src: url("./assets/fonts/Poppins-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "poppins-semibold";
   src: url("./assets/fonts/Poppins-SemiBold.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "waterbrush";
   src: url("./assets/fonts/WaterBrush-Regular.ttf");
+  font-display: swap;
 }
