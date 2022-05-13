@@ -23,8 +23,12 @@
     @apply text-xl md:text-4xl mx-auto;
   }
 
+  .primary-text {
+    @apply text-stone-900;
+  }
+
   .secondary-text {
-    @apply text-emerald-500;
+    @apply text-stone-700;
   }
 }
 
