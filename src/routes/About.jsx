@@ -5,7 +5,7 @@ export default function About() {
       <section className='min-h-screen h-fit flex items-center pt-5'>
         
 
-        <section className="max-w-3xl h-fit p-5">
+        <section className="max-w-3xl h-fit p-5 sm:pl-24">
           <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text'>
             About me
           </h2>
