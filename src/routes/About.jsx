@@ -6,18 +6,18 @@ export default function About() {
         
 
         <section className="max-w-3xl h-fit p-5">
-          <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl text-stone-900'>
+          <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text'>
             About me
           </h2>
           <p 
-            className='sm:text-xl mb-3 text-center sm:text-left pb-1 text-stone-700'
+            className='sm:text-xl mb-3 text-center sm:text-left pb-1 secondary-text'
           >
             Hi, my name is <span className="secondary-text">Hinrich</span>.<br/>
             I am currently a 3rd year undergrad studying at AMA Computer College  and an intern at <a href="http://poblacion.ph/" className="secondary-text underline">Poblacion.ph</a> which is a startup eCommerce company.
           </p>
 
           <p 
-            className='sm:text-xl mb-3 text-center sm:text-left pb-1 text-stone-700'
+            className='sm:text-xl mb-3 text-center sm:text-left pb-1 secondary-text'
           >
             I started learning how to code when I was about to go to college. After my first year, I decided to take web development as my route. Since then, I have been learning its ecosystem.
           </p>
