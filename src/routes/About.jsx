@@ -3,12 +3,12 @@ export default function About() {
   return (
     <>
       <section className='min-h-screen h-fit flex items-center pt-5 bg-no-repeat bg-contain bg-right relative'>
-        <video autoPlay loop muted playsInline className='fixed right-0 bottom-0 min-w-full min-h-full'>
+        <video autoPlay loop muted playsInline className='absolute z-0 right-0'>
           <source src="../src/assets/images/blob.webm" type="video/webm"/>
           <source src="../src/assets/images/blob.mp4" type="video/mp4"/>
         </video>
 
-        <section className="max-w-3xl h-fit p-5 sm:pl-24">
+        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-10">
           <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text'>
             About me
           </h2>
