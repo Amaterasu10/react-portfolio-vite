@@ -1,11 +1,13 @@
 import TechStack from '../components/TechStack';
+import blobWebm from "../assets/images/blob.webm";
+import blobMp4 from "../assets/images/blob.mp4";
 export default function About() {
   return (
     <>
       <section className='min-h-screen h-fit flex items-center pt-5 bg-no-repeat bg-contain bg-right relative'>
         <video autoPlay loop muted playsInline className='absolute z-0 right-0'>
-          <source src="../src/assets/images/blob.webm" type="video/webm"/>
-          <source src="../src/assets/images/blob.mp4" type="video/mp4"/>
+          <source src={blobWebm} type="video/webm"/>
+          <source src={blobMp4} type="video/mp4"/>
         </video>
 
         <section className="max-w-3xl h-fit p-5 sm:pl-24 z-[1]">
