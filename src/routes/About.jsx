@@ -1,4 +1,4 @@
-import TechStack from '../components/TechStack';
+// import TechStack from '../components/TechStack';
 export default function About() {
   return (
     <div className='p-5 pt-12'>
@@ -24,9 +24,9 @@ export default function About() {
         </section>
       </section>
 
-      <section className='min-h-screen h-fit grid place-content-center'>
+      {/* <section className='min-h-screen h-fit grid place-content-center'>
       <TechStack />
-      </section>
+      </section> */}
     </div>
   )
 }
