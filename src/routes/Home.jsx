@@ -11,12 +11,12 @@ export default function Home() {
       >
         <div className="w-fit p-5 sm:pl-24">
           <h2 
-            className="pb-2 text-center sm:text-left text-4xl md:text-6xl text-stone-900">
+            className="pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text">
             Hi, I'm Hinrich
           </h2>
 
           <h2 
-            className="text-center sm:text-left pb-1 text-3xl md:text-5xl text-stone-700">
+            className="text-center sm:text-left pb-1 text-3xl md:text-5xl secondary-text">
             Welcome to my portfolio
           </h2>
 

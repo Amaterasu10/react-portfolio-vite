@@ -12,7 +12,11 @@
   }
 
   .center-everything {
-    @apply min-h-screen h-fit grid place-content-center place-items-center;
+    @apply grid place-content-center place-items-center;
+  }
+
+  .height-full {
+    @apply min-h-screen h-fit;
   }
 
   .grid-center {
@@ -23,8 +27,12 @@
     @apply text-xl md:text-4xl mx-auto;
   }
 
+  .primary-text {
+    @apply text-stone-900;
+  }
+
   .secondary-text {
-    @apply text-emerald-500;
+    @apply text-stone-700;
   }
 }
 
