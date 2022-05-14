@@ -1,7 +1,7 @@
 // import TechStack from '../components/TechStack';
 export default function About() {
   return (
-    <div className='p-5 pt-12'>
+    <>
       <section className='min-h-screen h-fit flex items-center pt-5 bg-[url("./assets/images/blob.gif")] bg-no-repeat bg-contain bg-right'>
         
 
@@ -27,6 +27,6 @@ export default function About() {
       {/* <section className='min-h-screen h-fit grid place-content-center'>
       <TechStack />
       </section> */}
-    </div>
+    </>
   )
 }
