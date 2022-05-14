@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App font-poppins">
-      <header className='fixed w-full'>
+      <header className='fixed w-full z-10'>
         <TopNav/>
       </header>
       <main className='min-h-screen h-fit'>

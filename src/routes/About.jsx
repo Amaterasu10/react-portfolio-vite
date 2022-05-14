@@ -8,7 +8,7 @@ export default function About() {
           <source src="../src/assets/images/blob.mp4" type="video/mp4"/>
         </video>
 
-        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-10">
+        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-[1]">
           <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text'>
             About me
           </h2>
