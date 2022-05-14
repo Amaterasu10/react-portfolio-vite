@@ -13,7 +13,7 @@ export default function About() {
             className='sm:text-xl mb-3 text-center sm:text-left pb-1 text-stone-600'
           >
             Hi, my name is <span className="primary-text">Hinrich</span>.<br/>
-            I am currently a 3rd year undergrad studying at AMA Computer College  and an intern at <a className="primary-text" href="http://poblacion.ph/" className="secondary-text underline">Poblacion.ph</a> which is a startup eCommerce company.
+            I am currently a 3rd year undergrad studying at AMA Computer College  and an intern at <a className="primary-text underline" href="http://poblacion.ph/">Poblacion.ph</a> which is a startup eCommerce company.
           </p>
 
           <p 
