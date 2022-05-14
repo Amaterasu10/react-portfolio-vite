@@ -12,7 +12,11 @@
   }
 
   .center-everything {
-    @apply min-h-screen h-fit grid place-content-center place-items-center;
+    @apply grid place-content-center place-items-center;
+  }
+
+  .height-full {
+    @apply min-h-screen h-fit;
   }
 
   .grid-center {
