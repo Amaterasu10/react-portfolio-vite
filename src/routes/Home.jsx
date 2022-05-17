@@ -3,15 +3,9 @@ import resume from "../assets/files/resume.pdf";
 import { gsap } from "gsap";
 
 export default function Home() {
-  const hinrich = useRef(null);
   const tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 }});
 
   useEffect(()=> {
-
-    gsap.fromTo(hinrich.current, 
-      {clipPath:"polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)", y: -100}, 
-      {clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", duration: 1.5, y: 0 }
-    );
 
   },[])
 
@@ -27,7 +21,7 @@ export default function Home() {
         <div className="w-fit p-5 sm:pl-24">
           <h2 
             className="pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text">
-            Hi, <span ref={hinrich} className="hinrich"> I'm Hinrich</span>
+            Hi, I'm Hinrich
           </h2>
 
           <h2 
