@@ -11,7 +11,7 @@ export default function Home() {
         min-h-screen h-fit
         grid sm:flex place-items-center
         before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right
-        before:left-0 before:right-0 before:top-0 before:bottom-0 before:absolute relative before:animate-fadeInLeft"
+        before:inset-0 before:absolute relative before:animate-fadeInLeft"
       >
         <div className="w-fit p-5 sm:pl-24 z-10">
           <h2 
