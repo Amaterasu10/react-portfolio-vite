@@ -1,13 +1,7 @@
 import { useEffect, useRef } from "react";
 import resume from "../assets/files/resume.pdf";
-import { gsap } from "gsap";
 
 export default function Home() {
-  const tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 }});
-
-  useEffect(()=> {
-
-  },[])
 
   return (
     <>
