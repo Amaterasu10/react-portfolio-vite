@@ -16,9 +16,10 @@ export default function Home() {
         p-5 
         min-h-screen h-fit
         grid sm:flex place-items-center
-        bg-[url('./assets/images/blob.svg')] bg-no-repeat bg-contain bg-right"
+        before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right
+        before:left-0 before:right-0 before:top-0 before:bottom-0 before:absolute relative"
       >
-        <div className="w-fit p-5 sm:pl-24">
+        <div className="w-fit p-5 sm:pl-24 z-10">
           <h2 
             className="pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text">
             Hi, I'm Hinrich
