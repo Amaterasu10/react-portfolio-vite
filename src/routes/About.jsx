@@ -12,7 +12,7 @@ export default function About() {
         </video>
         <div className='absolute z-0 left-0 right-0 top-0 bottom-0 '></div>
 
-        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-[1]">
+        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-[1] animate-[fadeInLeft_1s_ease-in]">
           <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text'>
             About me
           </h2>
