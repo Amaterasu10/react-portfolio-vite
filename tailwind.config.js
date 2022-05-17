@@ -9,7 +9,7 @@ module.exports = {
         "poppins-semibold": ['Poppins-semibold', 'sans-serif']
       },
       keyframes: {
-        fadeIn: {
+        fadeInLeft: {
           '0%': {
             opacity: 0,
             transform: 'translateX(-1.5rem)'
@@ -18,10 +18,19 @@ module.exports = {
             opacity: 1,
             transform: 'translateX(0)'
           }
+        },
+        fadeIn: {
+          '0%': {
+            opacity: 0,
+          },
+          '100%': {
+            opacity: 1,
+          }
         }
       },
       animation: {
-        fadeIn: 'fadeIn 1s ease-in-out',
+        fadeIn: 'fadeInLeft 1s ease-in-out',
+        fadeInLeft: 'fadeInLeft 1s ease-in-out',
       }
     },
   },
