@@ -2,15 +2,17 @@ import TechStack from '../components/TechStack';
 import blobWebm from "../assets/images/blob.webm";
 import blobMp4 from "../assets/images/blob.mp4";
 export default function About() {
+
   return (
     <>
       <section className='min-h-screen h-fit flex items-center pt-5 bg-no-repeat bg-contain bg-right relative'>
-        <video autoPlay loop muted playsInline className='absolute z-0 right-0'>
+        <video autoPlay loop muted playsInline className='absolute z-0 right-0 opacity-0 animate-[fadeIn_1.5s_2s_ease-in_forwards]'>
           <source src={blobWebm} type="video/webm"/>
           <source src={blobMp4} type="video/mp4"/>
         </video>
+        <div className='absolute z-0 left-0 right-0 top-0 bottom-0 '></div>
 
-        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-[1]">
+        <section className="max-w-3xl h-fit p-5 sm:pl-24 z-[1] animate-[fadeInLeft_1s_ease-in]">
           <h2 className='pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text'>
             About me
           </h2>
