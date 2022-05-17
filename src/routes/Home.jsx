@@ -10,10 +10,10 @@ export default function Home() {
         p-5 
         min-h-screen h-fit
         grid sm:flex place-items-center
-        before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right
-        before:inset-0 before:absolute relative before:animate-fadeInLeft"
+        before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right before:opacity-0
+        before:inset-0 before:absolute relative before:animate-[fadeInLeft_1.5s_0.5s_ease-in_forwards]"
       >
-        <div className="w-fit p-5 sm:pl-24 z-10">
+        <div className="w-fit p-5 sm:pl-24 z-10 animate-[fadeInLeft_1s_ease-in]">
           <h2 
             className="pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text">
             Hi, I'm Hinrich
