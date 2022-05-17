@@ -2,13 +2,7 @@ import TechStack from '../components/TechStack';
 import blobWebm from "../assets/images/blob.webm";
 import blobMp4 from "../assets/images/blob.mp4";
 export default function About() {
-  const blob = useRef(null);
-  const tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 }});
-  useEffect(()=> {
-    
-    gsap.fromTo(blob.current, {opacity: 0}, {opacity: 1, duration: 5});
-    
-  },[])
+
   return (
     <>
       <section className='min-h-screen h-fit flex items-center pt-5 bg-no-repeat bg-contain bg-right relative'>
