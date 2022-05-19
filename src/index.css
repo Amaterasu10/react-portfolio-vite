@@ -33,6 +33,12 @@
     @apply px-7 py-2 border-2 border-solid border-black;
   }
 
+  .bg-blob {
+    @apply 
+    before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right before:opacity-0
+    before:inset-0 before:absolute relative before:animate-[fadeInLeft_1.5s_1s_ease-in_forwards]
+  }
+
   .center-everything {
     @apply grid place-content-center place-items-center;
   }

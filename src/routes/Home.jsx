@@ -9,9 +9,7 @@ export default function Home() {
         className="
         p-5 
         min-h-screen h-fit
-        grid sm:flex place-items-center
-        before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right before:opacity-0
-        before:inset-0 before:absolute relative before:animate-[fadeInLeft_1.5s_1s_ease-in_forwards]"
+        grid sm:flex place-items-center bg-blob"
       >
         <div className="w-fit p-5 sm:pl-24 z-10 animate-[fadeInLeft_1s_ease-in]">
           <h2 
