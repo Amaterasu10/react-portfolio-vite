@@ -55,6 +55,10 @@
     @apply text-xl md:text-4xl mx-auto;
   }
 
+  .text {
+    @apply sm:text-xl 2xl:text-4xl;
+  }
+
   .primary-text {
     @apply text-stone-900;
   }
