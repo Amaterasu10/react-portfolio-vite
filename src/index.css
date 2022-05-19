@@ -66,6 +66,10 @@
   .heading {
     @apply text-4xl md:text-6xl 2xl:text-9xl;
   }
+
+  .heading2 {
+    @apply text-3xl md:text-5xl 2xl:text-8xl;
+  }
 }
 
 @font-face {

@@ -18,7 +18,7 @@ export default function Home() {
           </h2>
 
           <h2 
-            className="text-center sm:text-left pb-1 text-3xl md:text-5xl secondary-text">
+            className="text-center sm:text-left pb-1 heading2 secondary-text">
             Welcome to my portfolio
           </h2>
 
