@@ -62,6 +62,10 @@
   .secondary-text {
     @apply text-stone-700;
   }
+
+  .heading {
+    @apply text-4xl md:text-6xl 2xl:text-9xl;
+  }
 }
 
 @font-face {

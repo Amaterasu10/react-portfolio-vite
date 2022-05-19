@@ -13,7 +13,7 @@ export default function Home() {
       >
         <div className="w-fit p-5 sm:pl-24 z-10 animate-[fadeInLeft_1s_ease-in]">
           <h2 
-            className="pb-2 text-center sm:text-left text-4xl md:text-6xl primary-text">
+            className="pb-2 text-center sm:text-left heading primary-text">
             Hi, I'm Hinrich
           </h2>
 
