@@ -30,7 +30,7 @@
   }
 
   .button-link {
-    @apply px-7 py-2 border-2 border-solid border-black;
+    @apply px-7 py-2 2xl:py-5 2xl:text-5xl border-2 2xl:border-4 border-solid border-black;
   }
 
   .bg-blob {
