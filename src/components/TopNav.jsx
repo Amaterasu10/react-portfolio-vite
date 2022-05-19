@@ -9,17 +9,17 @@ export default function TopNav() {
           <FaBars size="2em" className='hover:cursor-pointer hover:bg-slate-200'/> 
         </div>
       }
-      <ul className='nav__ul h-fit p-3'>
+      <ul className='nav__ul h-fit p-3 2xl:p-7'>
         
-        <li className='inline-block hover:underline'>
+        <li className='inline-block hover:underline 2xl:text-3xl'>
           <Link to="/">Home</Link>
         </li>
 
-        <li className='inline-block hover:underline'>
+        <li className='inline-block hover:underline 2xl:text-3xl'>
           <Link to="/contact">Contact</Link>
         </li>
 
-        <li className='inline-block hover:underline'>
+        <li className='inline-block hover:underline 2xl:text-3xl'>
           <Link to="/about">About</Link>
         </li>
       </ul>
