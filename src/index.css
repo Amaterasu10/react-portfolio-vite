@@ -53,3 +53,25 @@
   src: url("./assets/fonts/WaterBrush-Regular.ttf");
   font-display: swap;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(28 25 23 / 1) #ededed;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ededed;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color:rgb(28 25 23 / 1);
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+  }
