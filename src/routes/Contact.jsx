@@ -3,12 +3,12 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className="min-h-screen h-fit grid-center pt-12 p-5">
-      <div className='w-full max-w-md mt-5'>
+      <div className='w-full max-w-md 2xl:max-w-screen-lg mt-5'>
         <form 
         name="contact" 
         method="POST" 
         data-netlify="true" 
-        className='w-full border-2 grid-center'
+        className='w-full border-2 grid-center text'
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className='bg-slate-100 w-full p-3 text-center'>
