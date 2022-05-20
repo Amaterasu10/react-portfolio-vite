@@ -29,29 +29,29 @@ export default function TechStack() {
             
             <div className='icon-container'>
                 <SiHtml5 title='Html5' className='icon text-red-600' /> 
-                <p className='text-center'>Html</p>
+                <p className='text text-center'>Html</p>
             </div>
 
             <div className="icon-container">
                 <SiCss3 title='CSS3' className='icon text-blue-600' /> 
-                <p className='text-center'>CSS</p>
+                <p className='text text-center'>CSS</p>
             </div>
 
             <div className="icon-container">
                 <SiSass title='Sass' className='icon text-pink-600' /> 
-                <p className='text-center'>Sass</p>
+                <p className='text text-center'>Sass</p>
             </div>
 
             <div className="icon-container">
                 <SiTailwindcss title='TailwindCSS' className='icon text-teal-500' /> 
-                <p className='text-center'>Tailwind</p>
+                <p className='text text-center'>Tailwind</p>
             </div>
 
             <div className="icon-container">
                 <div className='bg-black w-fit mx-auto'>
                     <SiJavascript title='JavaScript' className='icon text-yellow-500 mx-0' /> 
                 </div>
-                <p className='text-center'>JavaScript</p>
+                <p className='text text-center'>JavaScript</p>
             </div>
 
             <section className='p-4 mt-5 w-full'>
@@ -59,17 +59,17 @@ export default function TechStack() {
                 <div className='flex justify-around flex-wrap mt-2'>
                     <div className="icon-container">
                         <SiReact title='React.js' className='icon text-cyan-500' /> 
-                        <p className='text-center'>React.js</p>
+                        <p className='text text-center'>React.js</p>
                     </div>
 
                     <div className="icon-container">
                         <SiTypescript title='Typscript' className='icon text-sky-700' />
-                        <p className='text-center'>Typscript</p> 
+                        <p className='text text-center'>Typscript</p> 
                     </div>
                     
                     <div className="icon-container">
                         <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem] 2xl:max-w-[6rem]' />
-                        <p className='text-center'>Vite</p>
+                        <p className='text text-center'>Vite</p>
                     </div>
                 </div>
             </section>
