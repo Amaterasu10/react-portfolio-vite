@@ -78,6 +78,10 @@
   .heading2 {
     @apply text-3xl md:text-5xl 2xl:text-8xl;
   }
+
+  .techstack-container {
+    @apply w-fit max-w-lg 2xl:max-w-screen-xl p-5 mx-auto flex justify-around flex-wrap;
+  }
 }
 
 @font-face {
