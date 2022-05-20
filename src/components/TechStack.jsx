@@ -25,7 +25,7 @@ export default function TechStack() {
   return (
     <>
         <h2 onClick={date} className="p-4 heading text-center">Tech Stack</h2>
-        <section className="w-fit max-w-lg p-5 mx-auto flex justify-around flex-wrap">
+        <section className="w-fit max-w-lg 2xl:max-w-screen-xl p-5 mx-auto flex justify-around flex-wrap">
             
             <div className='p-2 min-w-[89px]'>
                 <SiHtml5 title='Html5' className='icon text-red-600' /> 
