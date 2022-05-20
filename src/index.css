@@ -52,7 +52,7 @@
   }
 
   .icon {
-    @apply text-xl md:text-4xl mx-auto;
+    @apply text-xl md:text-4xl 2xl:text-8xl mx-auto;
   }
 
   .icon-container {
