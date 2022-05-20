@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className="min-h-screen h-fit grid-center pt-12 p-5">
-      <div className='w-full max-w-md 2xl:max-w-screen-lg mt-5'>
+      <div className='w-full max-w-md 2xl:max-w-screen-md mt-5'>
         <form 
         name="contact" 
         method="POST" 
@@ -17,16 +17,16 @@ export default function Contact() {
           <section className='w-full p-3'>
 
             <div>
-              <div className='mt-5'>
-                <label>Your Name<br/> <input className='border-2 p-2 w-full' type="text" name="name" /></label><br/>
+              <div className='mt-5 2xl:mt-10'>
+                <label>Your Name<br/> <input className='border-2 p-2 2xl:p-4 w-full' type="text" name="name" /></label><br/>
               </div>
-              <div className='mt-5'>
-                <label>Your Email<br/> <input className='border-2 p-2 w-full' type="email" name="email" /></label>
+              <div className='mt-5 2xl:mt-10'>
+                <label>Your Email<br/> <input className='border-2 p-2 2xl:p-4 w-full' type="email" name="email" /></label>
               </div>
             </div>
 
-            <div className='mt-5'>
-              <label>Message<br/> <textarea className='border-2 p-2 w-full' name="message"></textarea></label>
+            <div className='mt-5 2xl:mt-10'>
+              <label>Message<br/> <textarea className='border-2 p-2 2xl:p-4 w-full' name="message"></textarea></label>
             </div>
 
             <div className='p-2 w-full text-center'>
