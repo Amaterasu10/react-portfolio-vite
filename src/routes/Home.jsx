@@ -8,8 +8,9 @@ export default function Home() {
         className="
         p-5 
         min-h-screen h-fit
-        grid sm:flex place-items-center bg-blob"
+        grid sm:flex place-items-center relative"
       >
+        <div className='bg-blob'></div>
         <div className="w-fit p-5 sm:pl-24 z-10 animate-[fadeInLeft_1s_ease-in]">
           <h2 
             className="pb-2 text-center sm:text-left heading primary-text">
