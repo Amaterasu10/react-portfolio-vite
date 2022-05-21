@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 // import resume from "../assets/files/resume.pdf";
 
 export default function Home() {
