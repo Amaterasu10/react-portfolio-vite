@@ -27,12 +27,12 @@ export default function Home() {
               View my resume
             </a> */}
             <li className='px-2'>
-              <a href="https://github.com/Amaterasu10" target="_blank" className='secondary-text hover:text-stone-900'>
+              <a href="https://github.com/Amaterasu10" target="_blank" className='text secondary-text hover:text-stone-900'>
                 <FaGithub size={"2rem"} title="Github"/>
               </a>
             </li>
             <li className='px-2'>
-              <a href="https://www.linkedin.com/in/john-hinrich-joseph-galindo-2149b0201/" target="_blank" className='secondary-text hover:text-stone-900'>
+              <a href="https://www.linkedin.com/in/john-hinrich-joseph-galindo-2149b0201/" target="_blank" className='text secondary-text hover:text-stone-900'>
                 <FaLinkedin size={"2rem"} title="Linkedin"/>
               </a>
             </li>
