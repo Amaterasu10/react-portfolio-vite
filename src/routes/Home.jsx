@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import resume from "../assets/files/resume.pdf";
+// import resume from "../assets/files/resume.pdf";
 
 export default function Home() {
 
@@ -23,9 +23,9 @@ export default function Home() {
           </h2>
 
           <div className="w-fit mt-5 mx-auto sm:mx-0 flex flex-wrap flex-col sm:flex-row">
-            <a href={resume} target="_blank"  className="button-link mx-auto sm:mr-5 mb-2 sm:mb-0 bg-amber-400 hover:bg-stone-900 hover:text-white">
+            {/* <a href={resume} target="_blank"  className="button-link mx-auto sm:mr-5 mb-2 sm:mb-0 bg-amber-400 hover:bg-stone-900 hover:text-white">
               View my resume
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
