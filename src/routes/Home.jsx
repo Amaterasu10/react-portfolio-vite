@@ -1,5 +1,5 @@
 // import resume from "../assets/files/resume.pdf";
-
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 export default function Home() {
 
   return (
@@ -21,11 +21,21 @@ export default function Home() {
             Welcome to my portfolio
           </h2>
 
-          <div className="w-fit mt-5 mx-auto sm:mx-0 flex flex-wrap flex-col sm:flex-row">
+          <ul className="flex mt-5 mx-auto w-fit sm:mx-0">
             {/* <a href={resume} target="_blank"  className="button-link mx-auto sm:mr-5 mb-2 sm:mb-0 bg-amber-400 hover:bg-stone-900 hover:text-white">
               View my resume
             </a> */}
-          </div>
+            <li className='px-2'>
+              <a href="https://github.com/Amaterasu10" target="_blank" className='secondary-text hover:text-stone-900'>
+                <FaGithub size={"2rem"} title="Github"/>
+              </a>
+            </li>
+            <li className='px-2'>
+              <a href="https://www.linkedin.com/in/john-hinrich-joseph-galindo-2149b0201/" target="_blank" className='secondary-text hover:text-stone-900'>
+                <FaLinkedin size={"2rem"} title="Linkedin"/>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </>
