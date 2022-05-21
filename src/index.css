@@ -36,7 +36,7 @@
   .bg-blob {
     @apply 
     before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right sm:before:opacity-0
-    before:inset-0 before:absolute relative sm:before:animate-[fadeInLeft_1.5s_0.5s_ease-in_forwards]
+    before:inset-0 before:absolute relative sm:before:animate-[fadeIn_1s_0.5s_ease-in_forwards]
   }
 
   .center-everything {
