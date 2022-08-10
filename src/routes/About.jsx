@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <section className='min-h-screen h-fit flex items-center pt-5 relative'>
-        <video autoPlay loop muted playsInline className='absolute z-0 right-0 opacity-0 animate-[fadeIn_1.5s_1s_ease-in_forwards]'>
+        <video autoPlay loop muted playsInline className='max-h-full min-h-full absolute z-0 right-0 opacity-0 animate-[fadeIn_1.5s_1s_ease-in_forwards]'>
           <source src={blobWebm} type="video/webm"/>
           <source src={blobMp4} type="video/mp4"/>
         </video>
