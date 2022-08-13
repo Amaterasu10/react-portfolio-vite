@@ -10,7 +10,7 @@ export default function Home() {
         min-h-screen h-fit
         grid sm:flex place-items-center bg-blob"
       >
-
+        <h1 className='hidden'>Hi, my name is Hinrich, and this is my front-end portfolio website</h1>
         <div className="w-fit p-5 sm:pl-24 z-10 animate-[fadeInTop_1s_ease-in] sm:animate-[fadeInLeft_1s_ease-in]">
           <h2 
             className="pb-2 text-center sm:text-left heading primary-text">
