@@ -1,10 +1,27 @@
 import React from 'react'
 
 export default function Contact() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+    
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => alert("Thank you for your submission"))
+      .catch((error) => alert(error));
+      console.log(new URLSearchParams(formData).toString());
+  };
+  
   return (
     <div className="min-h-screen h-fit grid-center pt-12 p-5">
       <div className='w-full max-w-md 2xl:max-w-screen-md mt-5'>
         <form 
+        onSubmit={handleSubmit}
         name="contact" 
         method="POST" 
         data-netlify="true" 
