@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-export default function TopNav() {
+export default function TopNav({ navs }) {
   return (
     <nav className='flex relative bg-white shadow-md'>
       { false &&
@@ -10,19 +10,35 @@ export default function TopNav() {
         </div>
       }
       <ul className='nav__ul h-fit p-3 2xl:p-7'>
+        {
+          navs.map(
+            (navData, key) => (
+              <Nav 
+              key={ key }
+                text={ navData.text } 
+                navOnclick={ ()=> navData.ref.current.scrollIntoView() }
+              />
+            )
+          )
+        }
         
-        <li className='inline-block hover:underline 2xl:text-3xl'>
-          <Link to="/">Home</Link>
-        </li>
-
-        <li className='inline-block hover:underline 2xl:text-3xl'>
-          <Link to="/contact">Contact</Link>
-        </li>
-
-        <li className='inline-block hover:underline 2xl:text-3xl'>
-          <Link to="/about">About</Link>
-        </li>
       </ul>
     </nav>
   )
 }
+
+const Nav = ({text, navOnclick}) => {
+  return (
+    <li 
+      className='
+        inline-block 
+        hover:underline 
+        2xl:text-3xl 
+        cursor-pointer
+      '
+      onClick={ navOnclick }
+    >
+      { text }
+    </li>
+  )
+};
