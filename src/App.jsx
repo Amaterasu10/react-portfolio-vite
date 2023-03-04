@@ -4,7 +4,6 @@ import TopNav from './components/TopNav';
 import Home from './routes/Home';
 import Contact from './routes/Contact'
 import About from './routes/About'
-import Projects from './routes/Projects';
 
 import toast, { Toaster } from 'react-hot-toast';
 function App() {
