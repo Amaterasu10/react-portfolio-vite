@@ -4,32 +4,48 @@ import TopNav from './components/TopNav';
 import Home from './routes/Home';
 import Contact from './routes/Contact'
 import About from './routes/About'
+import Projects from './routes/Projects'
+import { FaHome } from 'react-icons/fa';
+import { GrProjects } from 'react-icons/gr';
+import { BsFillPersonFill } from 'react-icons/bs';
+
+
 
 import toast, { Toaster } from 'react-hot-toast';
 function App() {
 
 	const homeRef = useRef(null)
+	const projectsRef = useRef(null)
 	const aboutRef = useRef(null)
 	const contactRef = useRef(null)
 
 	const mainRef = useRef(null)
 
 	return (
-		<div className="App font-poppins relative">
-			<header className='fixed w-full z-50'>
+		<div className="App font-poppins relative bg-slate-100">
+			<header className='fixed w-fit z-50 right-2'>
 				<TopNav
 					navs={[
 						{
 							text: 'Home',
-							ref: homeRef	
+							ref: homeRef,
+							icon: <FaHome title='Home' className='nav-icon' size={"2rem"}/>	
+						},
+						{
+							text: "Projects",
+							ref: projectsRef,
+							icon: <GrProjects className='nav-icon' size={"2rem"}/>
 						},
 						{
 							text: 'About',
-							ref: aboutRef
+							ref: aboutRef,
+							icon: <GrProjects className='nav-icon' size={"2rem"}/>
+
 						},
 						{
 							text: 'Contact',
-							ref: contactRef
+							ref: contactRef,
+							icon: <GrProjects className='nav-icon' size={"2rem"}/>
 						}
 						
 					]}
@@ -45,9 +61,9 @@ function App() {
 				{/* <Outlet/> */}
 				<Home ref={ homeRef } />
 				
-				<About ref={ aboutRef } />
+				<Projects ref={ projectsRef } />
 
-				{/* <Projects/> */}
+				<About ref={ aboutRef } />
 
 				<Contact 
 					ref={ contactRef } 
