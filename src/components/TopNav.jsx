@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 
 export default function TopNav({ navs }) {
-  const [isCollapsed, setIsCollapsed] = useState(true)
+  const [isCollapsed, setIsCollapsed] = useState(false)
 
   const isMobileScreen = useCheckMobileScreen()
 
