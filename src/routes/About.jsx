@@ -31,9 +31,9 @@ const About = forwardRef(
 	
 						className="
 							mx-auto
-							max-w-6xl
-							2xl:max-w-7xl 
-							h-fit 
+							max-w-[95%]
+							sm:max-w-[80%]
+							h-fit
 							p-5 
 							z-[1] 
 							animate-[fadeInTop_0.5s_ease-in]"
