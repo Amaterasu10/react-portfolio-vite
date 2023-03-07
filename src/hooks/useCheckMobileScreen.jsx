@@ -17,7 +17,12 @@ const useCheckMobileScreen = () => {
         }
     }, []);
 
-    return (width <= 768);
+    return {
+        isMobileScreen: (width <= 768),
+        isHorizontal: (width > height),
+        width,
+        height
+    };
 }
 
 export default useCheckMobileScreen
