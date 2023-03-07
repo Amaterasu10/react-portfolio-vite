@@ -1,23 +1,23 @@
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
-  scrollbar-width: auto;
-  scrollbar-color: rgb(28 25 23 / 1) #ededed;
+	scrollbar-width: auto;
+	scrollbar-color: rgb(28 25 23 / 1) #ededed;
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 16px;
+	width: 16px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #ededed;
+	background: #ededed;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color:rgb(28 25 23 / 1);
-  border-radius: 0px;
-  border: 2px solid #ffffff;
+	background-color: rgb(28 25 23 / 1);
+	border-radius: 0px;
+	border: 2px solid #ffffff;
 }
 
 @tailwind base;
@@ -25,80 +25,108 @@
 @tailwind utilities;
 
 @layer components {
-  .nav__ul {
-    @apply flex justify-around w-80 2xl:w-1/4 m-auto;
-  }
+	.nav__ul {
+		@apply flex 
+		2xl:w-1/4 
+		m-auto
+		w-fit 
+		max-h-screen 
+		flex-col 
+		fixed 
+		right-1 
+		h-screen 
+		place-content-center;
+	}
 
-  .button-link {
-    @apply px-7 py-2 2xl:py-5 2xl:text-4xl border-2 2xl:border-4 border-solid border-black;
-  }
+	.nav-icon-container {
+		@apply inline-block 
+		hover:underline 
+		2xl:text-3xl 
+		cursor-pointer
+		shadow-2xl
+		p-2
+		w-fit
+		max-w-[5rem] 
+		min-w-[5rem]
+		max-h-[4rem] 
+		min-h-[4rem]
+		bg-white
+		m-2
+		rounded-lg;
+	}
 
-  .bg-blob {
-    @apply 
-    before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right sm:before:opacity-0
-    before:inset-0 before:absolute relative sm:before:animate-[fadeIn_1s_1s_ease-in_forwards]
-  }
+	.nav-icon {
+		@apply m-auto;
+	}
 
-  .center-everything {
-    @apply grid place-content-center place-items-center;
-  }
+	.button-link {
+		@apply px-7 py-2 2xl:py-5 2xl:text-4xl border-2 2xl:border-4 border-solid border-black;
+	}
 
-  .height-full {
-    @apply min-h-screen h-fit;
-  }
+	.bg-blob {
+		@apply before:bg-[url('./assets/images/blob.svg')] before:bg-no-repeat before:bg-contain before:bg-right sm:before:opacity-0
+    before:inset-0 before:absolute relative sm:before:animate-[fadeIn_1s_1s_ease-in_forwards];
+	}
 
-  .grid-center {
-    @apply grid place-items-center;
-  }
+	.center-everything {
+		@apply grid place-content-center place-items-center;
+	}
 
-  .icon {
-    @apply text-xl md:text-4xl 2xl:text-8xl mx-auto;
-  }
+	.height-full {
+		@apply min-h-screen h-fit;
+	}
 
-  .icon-container {
-    @apply p-2 min-w-[89px];
-  }
+	.grid-center {
+		@apply grid place-items-center;
+	}
 
-  .text {
-    @apply sm:text-xl 2xl:text-4xl;
-  }
+	.icon {
+		@apply text-xl md:text-4xl 2xl:text-8xl mx-auto;
+	}
 
-  .primary-text {
-    @apply text-stone-900;
-  }
+	.icon-container {
+		@apply p-2 min-w-[89px];
+	}
 
-  .secondary-text {
-    @apply text-stone-700;
-  }
+	.text {
+		@apply sm:text-xl 2xl:text-4xl;
+	}
 
-  .heading {
-    @apply text-4xl md:text-6xl 2xl:text-9xl;
-  }
+	.primary-text {
+		@apply text-stone-900;
+	}
 
-  .heading2 {
-    @apply text-3xl md:text-5xl 2xl:text-8xl;
-  }
+	.secondary-text {
+		@apply text-stone-700;
+	}
 
-  .techstack-container {
-    @apply w-fit max-w-lg 2xl:max-w-screen-xl p-5 mx-auto flex justify-around flex-wrap;
-  }
+	.heading {
+		@apply text-4xl md:text-6xl 2xl:text-9xl;
+	}
+
+	.heading2 {
+		@apply text-3xl md:text-5xl 2xl:text-8xl;
+	}
+
+	.techstack-container {
+		@apply w-fit max-w-lg 2xl:max-w-screen-xl p-5 mx-auto flex justify-around flex-wrap;
+	}
 }
 
 @font-face {
-  font-family: "poppins";
-  src: url("./assets/fonts/Poppins-Regular.ttf");
-  font-display: swap;
+	font-family: "poppins";
+	src: url("./assets/fonts/Poppins-Regular.ttf");
+	font-display: swap;
 }
 
 @font-face {
-  font-family: "poppins-semibold";
-  src: url("./assets/fonts/Poppins-SemiBold.ttf");
-  font-display: swap;
+	font-family: "poppins-semibold";
+	src: url("./assets/fonts/Poppins-SemiBold.ttf");
+	font-display: swap;
 }
 
 @font-face {
-  font-family: "waterbrush";
-  src: url("./assets/fonts/WaterBrush-Regular.ttf");
-  font-display: swap;
+	font-family: "waterbrush";
+	src: url("./assets/fonts/WaterBrush-Regular.ttf");
+	font-display: swap;
 }
-

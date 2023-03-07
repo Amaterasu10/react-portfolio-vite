@@ -1,28 +1,74 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react'
+import { FaBars } from 'react-icons/fa';
 
-export default function TopNav() {
+import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
+
+export default function TopNav({ navs }) {
+  const [isCollapsed, setIsCollapsed] = useState(false)
+
+  const { isMobileScreen } = useCheckMobileScreen()
+
   return (
-    <nav className='flex relative bg-white shadow-md'>
-      { false &&
-        <div className='inline-block p-2 absolute'>
-          <FaBars size="2em" className='hover:cursor-pointer hover:bg-slate-200'/> 
+    <nav 
+    className='
+      flex 
+      relative 
+      flex-col
+      
+    '>
+      { isMobileScreen &&
+        <div 
+          className='
+            w-fit
+          '
+          >
+          <div
+            className='nav-icon-container group'
+            onClick={
+              ()=> setIsCollapsed(!isCollapsed)
+            } 
+          >
+            <FaBars size={"2rem"} className='nav-icon'/> 
+
+            <span className='block text-center'>
+              {isCollapsed ? 'close': 'open'}
+            </span>
+          </div>
         </div>
       }
-      <ul className='nav__ul h-fit p-3 2xl:p-7'>
-        
-        <li className='inline-block hover:underline 2xl:text-3xl'>
-          <Link to="/">Home</Link>
-        </li>
 
-        <li className='inline-block hover:underline 2xl:text-3xl'>
-          <Link to="/contact">Contact</Link>
-        </li>
+      { (isCollapsed || !isMobileScreen) &&
+        <ul className='nav__ul'>
 
-        <li className='inline-block hover:underline 2xl:text-3xl'>
-          <Link to="/about">About</Link>
-        </li>
-      </ul>
+          {
+            navs.map(
+              (navData, key) => (
+                <Nav 
+                  key={ key }
+                  text={ navData.text } 
+                  icon={ navData.icon }
+                  navOnclick={ ()=> navData.ref.current.scrollIntoView() }
+                />
+              )
+            )
+          }
+        </ul>
+      }
     </nav>
   )
 }
+
+const Nav = ({text, navOnclick, icon}) => {
+  return (
+    <li 
+      className='nav-icon-container group'
+      onClick={ navOnclick }
+    >
+      { icon }
+
+      <span className='block text-center'>
+        {text}
+      </span>
+    </li>
+  )
+};

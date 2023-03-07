@@ -1,41 +1,103 @@
-import React from 'react'
+import React, { forwardRef, useState } from 'react'
 
-export default function Contact() {
-  return (
-    <div className="min-h-screen h-fit grid-center pt-12 p-5">
-      <div className='w-full max-w-md 2xl:max-w-screen-md mt-5'>
-        <form 
-        name="contact" 
-        method="POST" 
-        data-netlify="true" 
-        className='w-full border-2 grid-center text'
-        >
-          <input type="hidden" name="form-name" value="contact" />
-          <div className='bg-slate-100 w-full p-3 text-center'>
-            Get in touch
-          </div>
-          <section className='w-full p-3'>
+const Contact = forwardRef(
+	function Contact({
+		handleSubmit,
+		notifsGetter,
+	}, ref) {
+		
+		return (
+			<div className="min-h-screen h-fit grid-center pt-12 p-5" ref={ref}>
+				<h2 className='text-center heading primary-text'>Get in touch with me</h2>
+				<div className='w-full max-w-md 2xl:max-w-screen-md mt-5'>
 
-            <div>
-              <div className='mt-5 2xl:mt-10'>
-                <label>Your Name<br/> <input className='border-2 p-2 2xl:p-4 w-full' type="text" name="name" /></label><br/>
-              </div>
-              <div className='mt-5 2xl:mt-10'>
-                <label>Your Email<br/> <input className='border-2 p-2 2xl:p-4 w-full' type="email" name="email" /></label>
-              </div>
-            </div>
+					<h3 className='text-center'>email 
+					me: <a 
+							href="mailto:johnhinrichggalindo@gmail.com"
+							className='underline'
+						>
+							johnhinrichggalindo@gmail.com
+						</a>
+					</h3>
+					
+					<hr className='m-2'/>
 
-            <div className='mt-5 2xl:mt-10'>
-              <label>Message<br/> <textarea className='border-2 p-2 2xl:p-4 w-full' name="message"></textarea></label>
-            </div>
+					<form 
+						onSubmit={ handleSubmit }
+						name="contact" 
+						method="POST" 
+						data-netlify="true" 
+						className='w-full grid-center text'
+					>
+						<input type="hidden" name="form-name" value="contact" />
+						
+						<section className='w-full p-3'>
 
-            <div className='p-2 w-full text-center'>
-              <button className='button-link' type="submit">Send</button>
-            </div>
-            
-          </section>
-        </form>
-      </div>
-    </div>
-  )
-}
+							<div>
+								<div className='mt-5 2xl:mt-10'>
+									<input 
+									className='
+										border-2 
+										border-solid 
+										border-black 
+										p-2 2xl:p-4 
+										w-full
+									' 
+									placeholder='Name' 
+									required 
+									type="text" 
+									name="name" 
+									/>
+									<br/>
+								</div>
+
+								<div className='mt-5 2xl:mt-10'>
+									<input 
+										pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+
+										className='
+											border-2 
+											border-solid 
+											border-black 
+											p-2 2xl:p-4 
+											w-full
+										' 
+										placeholder='E-mail'
+										required type="email" 
+										name="email"
+									/>
+								</div>
+								
+							</div>
+
+							<div className='mt-5 2xl:mt-10'>
+								<textarea
+									className='border-2 border-solid border-black p-2 2xl:p-4 w-full'
+									placeholder='Message'
+									name="message"
+									required
+								></textarea>
+							</div>
+	
+							<div className='p-2 w-full text-center'>
+								<button className='button-link' type="submit">Send</button>
+							</div>
+							
+						</section>
+					</form>
+				</div>
+			</div>
+		)
+
+		function heightGetter(height) {
+			console.log('test')
+			setNotifHeights([
+				...notifHeights,
+				height
+			])
+		}
+	}
+			
+) 
+
+export default Contact;
