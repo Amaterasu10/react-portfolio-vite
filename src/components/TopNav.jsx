@@ -6,7 +6,7 @@ import useCheckMobileScreen from '../hooks/useCheckMobileScreen';
 export default function TopNav({ navs }) {
   const [isCollapsed, setIsCollapsed] = useState(false)
 
-  const isMobileScreen = useCheckMobileScreen()
+  const { isMobileScreen } = useCheckMobileScreen()
 
   return (
     <nav 
