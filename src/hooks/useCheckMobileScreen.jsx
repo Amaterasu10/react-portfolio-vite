@@ -2,8 +2,12 @@ import { useEffect, useState } from "react";
 
 const useCheckMobileScreen = () => {
     const [width, setWidth] = useState(window.innerWidth);
+
+    const [height, setHeight] = useState(window.innerHeight);
+
     const handleWindowSizeChange = () => {
-            setWidth(window.innerWidth);
+        setWidth(window.innerWidth);
+        setHeight(window.innerHeight)
     }
 
     useEffect(() => {
