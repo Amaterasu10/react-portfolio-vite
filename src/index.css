@@ -26,7 +26,16 @@
 
 @layer components {
 	.nav__ul {
-		@apply flex justify-around w-80 2xl:w-1/4 m-auto;
+		@apply flex 
+		2xl:w-1/4 
+		m-auto
+		w-fit 
+		max-h-screen 
+		flex-col 
+		fixed 
+		right-1 
+		h-screen 
+		place-content-center;
 	}
 
 	.button-link {

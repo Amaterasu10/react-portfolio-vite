@@ -38,7 +38,8 @@ export default function TopNav({ navs }) {
       }
 
       { (isCollapsed || !isMobileScreen) &&
-        <ul className='nav__ul h-fit 2xl:p-7 w-fit flex flex-col'>
+        <ul className='nav__ul'>
+
           {
             navs.map(
               (navData, key) => (
