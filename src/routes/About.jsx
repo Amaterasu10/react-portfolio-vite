@@ -8,7 +8,9 @@ const About = forwardRef(
 
 		return (
 			<article ref={ref}>
-				<section className='min-h-screen h-fit flex items-center pt-5 relative'>
+				{/* <section className='min-h-screen h-fit flex flex-col items-center pt-5 relative'> */}
+
+        <section className='min-h-screen h-fit grid content-center'>
 					{/* <video autoPlay loop muted playsInline className='max-h-full min-h-full absolute z-0 right-0 opacity-0 animate-[fadeIn_1.5s_1s_ease-in_forwards]'>
 					<source src={blobWebm} type="video/webm"/>
 					<source src={blobMp4} type="video/mp4"/>
@@ -19,24 +21,12 @@ const About = forwardRef(
 					}
 					<div className='absolute inset-0'></div> */}
 	
-					<article 
-						// className="
-						// 	2xl:max-w-7xl 
-						// 	h-fit 
-						// 	p-5 
-						// 	sm:pl-24 
-						// 	z-[1] 
-						// 	animate-[fadeInTop_1s_ease-in] 
-						// 	sm:animate-[fadeInLeft_1s_ease-in]"
-	
-						className="about-me-container"
-						>
-						{/* <h2 className='pb-2 text-center sm:text-left heading primary-text'> */}
+					<article className="about-me-container">
+            
 						<h2 className='heading2'>
 							About me
 						</h2>
-	
-						{/* <span className='text mb-3 text-center sm:text-left pb-1'> */}
+
 						<span className='text mb-3 pb-1 text-justify'>
 							<p>
 								Hi! my name is <span className="font-semibold italic">Hinrich</span>. I am an 
@@ -49,16 +39,13 @@ const About = forwardRef(
 							</p>
 						</span>
 					</article>
-				</section>
-	
-				<article 
-					className='
-						min-h-screen 
-						h-fit grid 
-						place-content-center'
-					>
+
+          <article className='pt-5'>
 					<TechStack />
 				</article>
+				</section>
+	
+
 			</article>
 		)
 	}
