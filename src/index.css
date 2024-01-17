@@ -41,7 +41,7 @@
 	.nav-icon-container {
 		@apply inline-block 
 		hover:underline 
-		2xl:text-3xl 
+		2xl:text-[1rem]
 		cursor-pointer
 		shadow-2xl
 		p-2
