@@ -8,8 +8,10 @@ const Contact = forwardRef(
 		
 		return (
 			<div className="min-h-screen h-fit grid-center pt-12 p-5" ref={ref}>
-				<h2 className='text-center heading primary-text'>Get in touch with me</h2>
+				
 				<div className='w-full max-w-md 2xl:max-w-screen-md mt-5'>
+
+        <h2 className='text-center heading2 primary-text'>Contact</h2>
 
 					<h3 className='text-center'>email 
 					me: <a 
@@ -40,7 +42,7 @@ const Contact = forwardRef(
 										border-2 
 										border-solid 
 										border-black 
-										p-2 2xl:p-4 
+										p-2
 										w-full
 									' 
 									placeholder='Name' 
@@ -51,7 +53,7 @@ const Contact = forwardRef(
 									<br/>
 								</div>
 
-								<div className='mt-5 2xl:mt-10'>
+								<div className='mt-5'>
 									<input 
 										pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
 
@@ -59,7 +61,7 @@ const Contact = forwardRef(
 											border-2 
 											border-solid 
 											border-black 
-											p-2 2xl:p-4 
+											p-2
 											w-full
 										' 
 										placeholder='E-mail'
@@ -72,7 +74,7 @@ const Contact = forwardRef(
 
 							<div className='mt-5 2xl:mt-10'>
 								<textarea
-									className='border-2 border-solid border-black p-2 2xl:p-4 w-full'
+									className='border-2 border-solid border-black p-2 w-full'
 									placeholder='Message'
 									name="message"
 									required

@@ -57,7 +57,7 @@ function App() {
 				reverseOrder={false}
 			/>
 
-			<main className='min-h-screen h-fit scroll-smooth' ref={ mainRef }>
+			<main className='main-content' ref={ mainRef }>
 				{/* <Outlet/> */}
 				<Home ref={ homeRef } />
 				

@@ -25,9 +25,30 @@
 @tailwind utilities;
 
 @layer components {
+	.main-content {
+		@apply min-h-screen 
+    h-fit 
+    m-auto
+    scroll-smooth;
+	}
+
+	.center-container {
+		@apply 2xl:max-w-[75%];
+	}
+
+	.about-me-container {
+		@apply mx-auto
+    sm:max-w-[80%]
+    2xl:max-w-7xl
+    h-fit
+    p-5 
+    z-[1] 
+    animate-[fadeInTop_0.5s_ease-in];
+	}
+
 	.nav__ul {
 		@apply flex 
-		2xl:w-1/4 
+		2xl:w-[12.5%] 
 		m-auto
 		w-fit 
 		max-h-screen 
@@ -41,7 +62,7 @@
 	.nav-icon-container {
 		@apply inline-block 
 		hover:underline 
-		2xl:text-3xl 
+		2xl:text-[1rem]
 		cursor-pointer
 		shadow-2xl
 		p-2
@@ -60,7 +81,7 @@
 	}
 
 	.button-link {
-		@apply px-7 py-2 2xl:py-5 2xl:text-4xl border-2 2xl:border-4 border-solid border-black;
+		@apply px-7 py-2 border-2 border-solid border-black;
 	}
 
 	.bg-blob {
@@ -81,7 +102,7 @@
 	}
 
 	.icon {
-		@apply text-xl md:text-4xl 2xl:text-8xl mx-auto;
+		@apply text-xl md:text-4xl mx-auto;
 	}
 
 	.icon-container {
@@ -89,7 +110,7 @@
 	}
 
 	.text {
-		@apply sm:text-xl 2xl:text-4xl;
+		@apply sm:text-xl;
 	}
 
 	.primary-text {
@@ -101,11 +122,23 @@
 	}
 
 	.heading {
-		@apply text-4xl md:text-6xl 2xl:text-9xl;
+		@apply text-4xl md:text-6xl 2xl:text-7xl;
 	}
 
 	.heading2 {
-		@apply text-3xl md:text-5xl 2xl:text-8xl;
+		@apply text-3xl 
+    md:text-5xl 
+    p-4 
+    text-center 
+    primary-text;
+	}
+
+	.heading3 {
+		@apply text-2xl 
+    md:text-3xl 
+    p-4 
+    text-center 
+    primary-text;
 	}
 
 	.techstack-container {
@@ -114,19 +147,19 @@
 }
 
 @font-face {
-	font-family: "poppins";
-	src: url("./assets/fonts/Poppins-Regular.ttf");
+	font-family: 'poppins';
+	src: url('./assets/fonts/Poppins-Regular.ttf');
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "poppins-semibold";
-	src: url("./assets/fonts/Poppins-SemiBold.ttf");
+	font-family: 'poppins-semibold';
+	src: url('./assets/fonts/Poppins-SemiBold.ttf');
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "waterbrush";
-	src: url("./assets/fonts/WaterBrush-Regular.ttf");
+	font-family: 'waterbrush';
+	src: url('./assets/fonts/WaterBrush-Regular.ttf');
 	font-display: swap;
 }
