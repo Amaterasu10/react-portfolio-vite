@@ -42,7 +42,7 @@ const Contact = forwardRef(
 										border-2 
 										border-solid 
 										border-black 
-										p-2 2xl:p-4 
+										p-2
 										w-full
 									' 
 									placeholder='Name' 
@@ -53,7 +53,7 @@ const Contact = forwardRef(
 									<br/>
 								</div>
 
-								<div className='mt-5 2xl:mt-10'>
+								<div className='mt-5'>
 									<input 
 										pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
 
@@ -61,7 +61,7 @@ const Contact = forwardRef(
 											border-2 
 											border-solid 
 											border-black 
-											p-2 2xl:p-4 
+											p-2
 											w-full
 										' 
 										placeholder='E-mail'
@@ -74,7 +74,7 @@ const Contact = forwardRef(
 
 							<div className='mt-5 2xl:mt-10'>
 								<textarea
-									className='border-2 border-solid border-black p-2 2xl:p-4 w-full'
+									className='border-2 border-solid border-black p-2 w-full'
 									placeholder='Message'
 									name="message"
 									required
