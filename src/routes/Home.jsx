@@ -44,7 +44,7 @@ const Home = forwardRef(
 						Welcome to my portfolio
 					</h2>
 
-					<ul className="flex mt-5 mx-auto w-fit sm:mx-0 bg-stone-900 w-full p-1 rounded-md">
+					<ul className="flex mt-5 mx-auto sm:mx-0 bg-stone-900 w-full p-1 rounded-md">
 						<li className='px-2'>
 							<a href="https://github.com/Amaterasu10" target="_blank" className='text-slate-200 hover:text-stone-400'>
 							<FaGithub size={"2rem"} title="Github"/>

@@ -7,6 +7,7 @@ import About from './routes/About'
 import Projects from './routes/Projects'
 import { FaHome } from 'react-icons/fa';
 import { GrProjects } from 'react-icons/gr';
+import { IoMailOutline } from "react-icons/io5";
 import { BsFillPersonFill } from 'react-icons/bs';
 
 
@@ -39,13 +40,13 @@ function App() {
 						{
 							text: 'About',
 							ref: aboutRef,
-							icon: <GrProjects className='nav-icon' size={"2rem"}/>
+							icon: <BsFillPersonFill className='nav-icon' size={"2rem"}/>
 
 						},
 						{
 							text: 'Contact',
 							ref: contactRef,
-							icon: <GrProjects className='nav-icon' size={"2rem"}/>
+							icon: <IoMailOutline className='nav-icon' size={"2rem"}/>
 						}
 						
 					]}
