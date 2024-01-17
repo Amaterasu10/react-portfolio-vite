@@ -68,7 +68,7 @@ export default function TechStack() {
                     </div>
                     
                     <div className="icon-container">
-                        <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem] 2xl:max-w-[6rem]' />
+                        <img src={vite} title='vite' className='icon max-w-[1.25rem] md:max-w-[2.25rem]' />
                         <p className='text text-center'>Vite</p>
                     </div>
                 </div>
