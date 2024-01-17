@@ -24,7 +24,7 @@ import vite from '../favicon.svg'
 export default function TechStack() {
   return (
     <>
-        <h2 onClick={date} className="p-4 heading text-center">Tech Stack</h2>
+        <h2 onClick={date} className="p-4 heading2 text-center">Tech Stack</h2>
         <section className="techstack-container">
             
             <div className='icon-container'>
@@ -55,7 +55,7 @@ export default function TechStack() {
             </div>
 
             <section className='p-4 mt-5 w-full'>
-                <h3 className='heading2 text-center'>Learning</h3>
+                <h3 className='heading3 text-center'>Learning</h3>
                 <div className='flex justify-around flex-wrap mt-2'>
                     <div className="icon-container">
                         <SiReact title='React.js' className='icon text-cyan-500' /> 

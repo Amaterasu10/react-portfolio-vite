@@ -29,17 +29,10 @@ const About = forwardRef(
 						// 	animate-[fadeInTop_1s_ease-in] 
 						// 	sm:animate-[fadeInLeft_1s_ease-in]"
 	
-						className="
-							mx-auto
-							max-w-[95%]
-							sm:max-w-[80%]
-							h-fit
-							p-5 
-							z-[1] 
-							animate-[fadeInTop_0.5s_ease-in]"
+						className="about-me-container"
 						>
 						{/* <h2 className='pb-2 text-center sm:text-left heading primary-text'> */}
-						<h2 className='p-4 text-center heading primary-text'>
+						<h2 className='heading2'>
 							About me
 						</h2>
 	

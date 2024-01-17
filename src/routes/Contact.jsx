@@ -8,7 +8,7 @@ const Contact = forwardRef(
 		
 		return (
 			<div className="min-h-screen h-fit grid-center pt-12 p-5" ref={ref}>
-				<h2 className='text-center heading primary-text'>Get in touch with me</h2>
+				<h2 className='text-center heading2 primary-text'>Contact</h2>
 				<div className='w-full max-w-md 2xl:max-w-screen-md mt-5'>
 
 					<h3 className='text-center'>email 

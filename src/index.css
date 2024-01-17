@@ -25,9 +25,30 @@
 @tailwind utilities;
 
 @layer components {
+	.main-content {
+		@apply min-h-screen 
+    h-fit 
+    m-auto
+    scroll-smooth;
+	}
+
+	.center-container {
+		@apply 2xl:max-w-[75%];
+	}
+
+	.about-me-container {
+		@apply mx-auto
+    sm:max-w-[80%]
+    2xl:max-w-[75%]
+    h-fit
+    p-5 
+    z-[1] 
+    animate-[fadeInTop_0.5s_ease-in];
+	}
+
 	.nav__ul {
 		@apply flex 
-		2xl:w-1/4 
+		2xl:w-[12.5%] 
 		m-auto
 		w-fit 
 		max-h-screen 
@@ -89,7 +110,7 @@
 	}
 
 	.text {
-		@apply sm:text-xl 2xl:text-4xl;
+		@apply sm:text-xl;
 	}
 
 	.primary-text {
@@ -101,11 +122,23 @@
 	}
 
 	.heading {
-		@apply text-4xl md:text-6xl 2xl:text-9xl;
+		@apply text-4xl md:text-6xl 2xl:text-7xl;
 	}
 
 	.heading2 {
-		@apply text-3xl md:text-5xl 2xl:text-8xl;
+		@apply text-3xl 
+    md:text-5xl 
+    p-4 
+    text-center 
+    primary-text;
+	}
+
+	.heading3 {
+		@apply text-2xl 
+    md:text-3xl 
+    p-4 
+    text-center 
+    primary-text;
 	}
 
 	.techstack-container {
