@@ -39,7 +39,7 @@
 	.about-me-container {
 		@apply mx-auto
     sm:max-w-[80%]
-    2xl:max-w-[75%]
+    2xl:max-w-7xl
     h-fit
     p-5 
     z-[1] 
