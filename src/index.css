@@ -33,7 +33,8 @@
 	}
 
 	.center-container {
-		@apply 2xl:max-w-[75%];
+		@apply 2xl:max-w-[75%]
+    mx-auto;
 	}
 
 	.about-me-container {
