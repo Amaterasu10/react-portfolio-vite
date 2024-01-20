@@ -23,7 +23,7 @@ const About = forwardRef(
 	
 					<article className="about-me-container">
             
-						<h2 className='heading2'>
+						<h2 className='heading2 text-center'>
 							About me
 						</h2>
 
