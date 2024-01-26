@@ -18,11 +18,13 @@ const Projects = forwardRef(
                 title='General Images' 
                 thumbnail={'https://placehold.co/300x200'} 
                 description={`The very first complete website that I created. I learned all the basic's of web development from this website, from Html, CSS, SCSS, Javascript, API integration, Lazy loading, modular JS, and many more.`}
+                labels={['SCSS', 'Javascript']}
                 />
                 <Project 
                 title='CSV parser and sorter' 
                 thumbnail={'https://placehold.co/300x200'}
                 description={`This website is capable of sorting up to 100K lines of CSV. I created this to provide an automated(through parsing) CSV sorter while removing the need to input any complicated commands, contrary to some existing solutions.`}
+                labels={['SCSS', 'Javascript']}
                 />
               </div>
               
