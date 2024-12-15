@@ -62,9 +62,9 @@ function App() {
 				{/* <Outlet/> */}
 				<Home ref={ homeRef } />
 				
-				<Projects ref={ projectsRef } />
+        <About ref={ aboutRef } />
 
-				<About ref={ aboutRef } />
+				<Projects ref={ projectsRef } />
 
 				<Contact 
 					ref={ contactRef } 
