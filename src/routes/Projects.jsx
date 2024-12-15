@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 import Project from '../components/Project'
 import { BsNutFill } from "react-icons/bs";
 
-import generalImagesThumbnail from '../general-images.png'
+import generalImagesThumbnail from '../assets/general-images.png'
 
 const Projects = forwardRef(
     function Projects(props, ref) {
