@@ -15,14 +15,22 @@ export default function Project({title, thumbnail, description, labels, links })
 
         <section className='flex flex-wrap'>
           <section className='flex mt-2'>
-          <div className='border-2 py-1 px-4 mx-2 flex items-center'>
-            <span className='px-2'>Github</span>
-            <FaGithub fontSize={'1.3rem'}/>
-          </div>
-          <div className='border-2 py-1 px-4 mx-2 flex items-center'>
-            <span className='px-2'>Live</span>
-            <BiLinkExternal fontSize={'1.3rem'}/>
-          </div>
+
+            <a href={links.github} target="_blank">
+              <div className='border-2 py-1 px-4 mx-2 flex items-center'>
+                
+                <span className='px-2'>Github</span>
+                  <FaGithub fontSize={'1.3rem'}/>
+              </div>
+            </a>
+
+            <a href={links.live} target="_blank">
+              <div className='border-2 py-1 px-4 mx-2 flex items-center'>
+                <span className='px-2'>Live</span>
+                <BiLinkExternal fontSize={'1.3rem'}/>
+              </div>
+            </a>
+
           </section>
 
           <section className='w-auto mt-2'>
