@@ -1,4 +1,5 @@
 import React, { forwardRef, useState } from 'react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Contact = forwardRef(
 	function Contact({
@@ -23,6 +24,20 @@ const Contact = forwardRef(
 					</h3>
 					
 					<hr className='m-2'/>
+          
+          <ul className="flex justify-center w-full">
+						<li className='px-2'>
+							<a href="https://github.com/Amaterasu10" target="_blank" className='bg-stone-900 hover:text-stone-500'>
+							<FaGithub size={"2rem"} title="Github"/>
+							</a>
+						</li>
+						
+						<li className='px-2'>
+							<a href="https://www.linkedin.com/in/john-hinrich-joseph-galindo-2149b0201/" target="_blank" className='bg-stone-900 hover:text-stone-500'>
+							<FaLinkedin size={"2rem"}/>
+							</a>
+						</li>
+					</ul>
 
 					<form 
 						onSubmit={ handleSubmit }

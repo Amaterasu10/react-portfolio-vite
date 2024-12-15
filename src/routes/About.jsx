@@ -29,13 +29,7 @@ const About = forwardRef(
 
 						<span className='text mb-3 pb-1 text-justify'>
 							<p>
-								Hi! my name is <span className="font-semibold italic">Hinrich</span>. I am an 
-								aspiring <span className="font-semibold italic">front-end web developer</span>.
-								I gained some practical experience through a 3-month internship 
-								with <a className='underline font-semibold italic' href="http://poblacion.ph" target='_blank'>Poblacion.ph</a>, 
-								a startup E-Commerce company. However, since I was a founding member, my presence was crucial to the company, and 
-								I ended up extending my internship for an additional 7 months. After my internship, I decided to focus on my studies. 
-								Now, I am looking for a company that would help me grow as a developer.
+              Hello! My name is Hinrich. I am a Computer Science student and a front-end developer with a keen interest in technologies like AI and coding. I have a total of 13 months of experience from my two previous internships. During these internships, I was exposed to tasks and projects that required the use of tools such as Confluence, Atlassian Jira, Google Analytics, and others.
 							</p>
 						</span>
 					</article>

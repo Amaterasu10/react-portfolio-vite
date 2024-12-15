@@ -32,16 +32,16 @@ function App() {
 							ref: homeRef,
 							icon: <FaHome title='Home' className='nav-icon' size={"2rem"}/>	
 						},
-						{
-							text: "Projects",
-							ref: projectsRef,
-							icon: <GrProjects className='nav-icon' size={"2rem"}/>
-						},
-						{
+            {
 							text: 'About',
 							ref: aboutRef,
 							icon: <BsFillPersonFill className='nav-icon' size={"2rem"}/>
 
+						},
+						{
+							text: "Projects",
+							ref: projectsRef,
+							icon: <GrProjects className='nav-icon' size={"2rem"}/>
 						},
 						{
 							text: 'Contact',
@@ -62,9 +62,9 @@ function App() {
 				{/* <Outlet/> */}
 				<Home ref={ homeRef } />
 				
-				<Projects ref={ projectsRef } />
+        <About ref={ aboutRef } />
 
-				<About ref={ aboutRef } />
+				<Projects ref={ projectsRef } />
 
 				<Contact 
 					ref={ contactRef } 
