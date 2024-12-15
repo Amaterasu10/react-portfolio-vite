@@ -40,8 +40,8 @@ const TechLabels = ({labels}) => {
   return (
     <ul className='flex flex-wrap'>
       {
-        labels.map( label => {
-          return <li className='border-2 py-1 px-4 mx-2'>{label}</li>
+        labels.map( (label, idx) => {
+          return <li key={idx} className='border-2 py-1 px-4 mx-2'>{label}</li>
         })
       }
     </ul>
