@@ -57,7 +57,8 @@
 		fixed 
 		right-1 
 		h-screen 
-		place-content-center;
+		place-content-center
+    animate-[fadeInTop_0.3s_ease-in];
 	}
 
 	.nav-icon-container {
