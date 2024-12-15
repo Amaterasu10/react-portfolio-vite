@@ -23,7 +23,7 @@ const Home = forwardRef(
 					className="
 						p-5 
 						min-h-screen h-fit
-						grid sm:flex place-items-center bg-blob
+						grid place-items-center bg-blob
 					"
 				>
 
