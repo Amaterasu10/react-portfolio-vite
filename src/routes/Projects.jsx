@@ -2,6 +2,8 @@ import React, { forwardRef } from 'react'
 import Project from '../components/Project'
 import { BsNutFill } from "react-icons/bs";
 
+import generalImagesThumbnail from '../assets/images/project-thumbnails/general-images.png'
+
 const Projects = forwardRef(
     function Projects(props, ref) {
         return (
@@ -16,7 +18,7 @@ const Projects = forwardRef(
               <div className='w-full md:w-[75%]'>
                 <Project 
                 title='General Images' 
-                thumbnail={'src/assets/images/project-thumbnails/general-images.png'} 
+                thumbnail={generalImagesThumbnail} 
                 description={`The very first complete website that I created. I learned all the basic's of web development from this website, from Html, CSS, SCSS, Javascript, API integration, Lazy loading, modular JS, and many more.`}
                 labels={['SCSS', 'Javascript']}
                 links={{github: "https://github.com/Amaterasu10/general-images", live: "https://general-images.netlify.app/"}}
