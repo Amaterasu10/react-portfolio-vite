@@ -2,9 +2,9 @@ import React from 'react';
 import * as ReactDOMClient from 'react-dom/client';
 
 import App from './App';
-import Home from './routes/Home';
-import Contact from './routes/Contact';
-import About from './routes/About';
+import Home from './sections/Home';
+import Contact from './sections/Contact';
+import About from './sections/About';
 
 import {
   BrowserRouter,

@@ -1,10 +1,10 @@
 import { useRef } from 'react';
 
 import TopNav from './components/TopNav';
-import Home from './routes/Home';
-import Contact from './routes/Contact'
-import About from './routes/About'
-import Projects from './routes/Projects'
+import Home from './sections/Home';
+import Contact from './sections/Contact'
+import About from './sections/About'
+import Projects from './sections/Projects'
 import { FaHome } from 'react-icons/fa';
 import { GrProjects } from 'react-icons/gr';
 import { IoMailOutline } from "react-icons/io5";
