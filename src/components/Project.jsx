@@ -45,11 +45,23 @@ export default function Project({title, thumbnail, description, labels, links })
 
 
 const TechLabels = ({labels}) => {
+
+  const colors = {
+    html: 'bg-red-300',
+    css: 'bg-blue-300',
+    scss: 'bg-pink-300',
+    tailwind: 'bg-teal-300',
+    javascript: 'bg-yellow-300',
+    react: 'bg-cyan-300',
+    typescript: 'bg-sky-300',
+    vite: 'bg-indigo-300'
+  }
+
   return (
     <ul className='flex flex-wrap'>
       {
         labels.map( (label, idx) => {
-          return <li key={idx} className='cursor-default border-2 py-1 px-4 mx-2'>{label}</li>
+          return <li key={idx} className={`cursor-default border-2 py-1 px-4 mx-2 ${colors[label.toLowerCase()]}`}>{label}</li>
         })
       }
     </ul>
