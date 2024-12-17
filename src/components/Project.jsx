@@ -49,7 +49,7 @@ const TechLabels = ({labels}) => {
     <ul className='flex flex-wrap'>
       {
         labels.map( (label, idx) => {
-          return <li key={idx} className='border-2 py-1 px-4 mx-2'>{label}</li>
+          return <li key={idx} className='cursor-default border-2 py-1 px-4 mx-2'>{label}</li>
         })
       }
     </ul>
