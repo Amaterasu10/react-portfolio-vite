@@ -3,6 +3,7 @@ import Project from '../components/Project'
 import { BsNutFill } from "react-icons/bs";
 
 import generalImagesThumbnail from '../assets/general-images.png'
+import fileSorter from '../assets/file-sorter.png'
 
 const Projects = forwardRef(
     function Projects(props, ref) {
@@ -25,7 +26,7 @@ const Projects = forwardRef(
                 />
                 <Project 
                 title='CSV parser and sorter' 
-                thumbnail={'https://placehold.co/300x200'}
+                thumbnail={fileSorter}
                 description={`This website is capable of sorting up to 100K lines of CSV. I created this to provide an automated(through parsing) CSV sorter while removing the need to input any complicated commands, contrary to some existing solutions.`}
                 labels={['SCSS', 'Javascript']}
                 links={{github: "https://github.com/AMA-students/vanilla-js-file-sorter", live: "https://file-sorter.netlify.app/"}}
