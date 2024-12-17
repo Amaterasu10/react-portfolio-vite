@@ -47,23 +47,62 @@ export default function Project({title, thumbnail, description, labels, links })
 const TechLabels = ({labels}) => {
 
   const colors = {
-    html: 'bg-red-300',
-    css: 'bg-blue-300',
-    scss: 'bg-pink-300',
-    tailwind: 'bg-teal-300',
-    javascript: 'bg-yellow-300',
-    react: 'bg-cyan-300',
-    typescript: 'bg-sky-300',
-    vite: 'bg-indigo-300'
+    html: {
+      bg: 'bg-red-300', 
+      hover: 'hover:bg-red-400'
+    },
+    css: {
+      bg: 'bg-blue-300',
+      hover: 'hover:bg-blue-400'
+    },
+    scss: {
+      bg: 'bg-pink-300',
+      hover: 'hover:bg-pink-400'
+    },
+    tailwind: {
+      bg: 'bg-teal-300',
+      hover: 'hover:bg-teal-400'
+    },
+    javascript: {
+      bg: 'bg-yellow-300',
+      hover: 'hover:bg-yellow-400'
+    },
+    react: {
+      bg: 'bg-cyan-300',
+      hover: 'hover:bg-cyan-400'
+    },
+    typescript: {
+      bg: 'bg-sky-300',
+      hover: 'hover:bg-sky-400'
+    },
+    vite: {
+      bg: 'bg-indigo-300',
+      hover: 'hover:bg-indigo-400'
+    }
   }
 
+  const defaultColor = {
+    bg: 'bg-gray-300',
+    hover: 'hover:bg-gray-400',
+  };
+
   return (
-    <ul className='flex flex-wrap'>
-      {
-        labels.map( (label, idx) => {
-          return <li key={idx} className={`cursor-default border-2 py-1 px-4 mx-2 ${colors[label.toLowerCase()]}`}>{label}</li>
-        })
-      }
-    </ul>
-  )
+  <ul className='flex flex-wrap'>{
+    labels.map((label, idx) => {
+
+      const normalizedLabel = label.toLowerCase();
+      const { bg, hover } = colors[normalizedLabel] || defaultColor;
+
+      return (
+        <li
+          key={idx}
+          className={`cursor-default border-2 py-1 px-4 mx-2 ${bg} ${hover}`}
+        >
+          {label}
+        </li>
+      );
+
+    })
+  }</ul>
+);
 }
