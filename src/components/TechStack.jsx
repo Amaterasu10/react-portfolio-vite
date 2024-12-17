@@ -55,7 +55,7 @@ export default function TechStack() {
             </div>
 
             <section className='p-4 mt-5 w-full'>
-                <h3 className='heading3 text-center'>Learning</h3>
+                <h3 className='heading3 text-center primary-font'>Learning</h3>
                 <div className='flex justify-around flex-wrap mt-2'>
                     <div className="icon-container">
                         <SiReact title='React.js' className='icon text-cyan-500' /> 
