@@ -131,14 +131,17 @@
 		@apply text-3xl 
     md:text-5xl 
     p-4 
-    primary-text;
+    primary-text
+    primary-font;
 	}
 
 	.heading3 {
 		@apply text-2xl 
     md:text-3xl 
-    p-4 
-    primary-text;
+    px-4
+    pt-4
+    primary-text
+    font-bold;
 	}
 
 	.techstack-container {

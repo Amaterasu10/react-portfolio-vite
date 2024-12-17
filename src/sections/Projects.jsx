@@ -12,7 +12,7 @@ const Projects = forwardRef(
               <h2 className='p-4 text-center heading2 primary-text'>Projects</h2>
 
               <div className='flex items-center'>
-                <h2 className='heading3'>Work in progress </h2><BsNutFill  className='animate-spin' fontSize={"2rem"}/>
+                <h2 className='heading3 primary-font'>Work in progress </h2><BsNutFill  className='animate-spin' fontSize={"2rem"}/>
               </div>
 
               <div className='w-full md:w-[75%]'>
