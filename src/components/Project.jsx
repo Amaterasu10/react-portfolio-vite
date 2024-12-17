@@ -4,8 +4,8 @@ import { BiLinkExternal } from "react-icons/bi";
 
 export default function Project({title, thumbnail, description, labels, links }) {
   return (
-    <article className='bg-slate-50 m-2 px-2 py-7 shadow-md flex flex-col lg:flex-row mt-5 rounded-md'>
-      <img src={thumbnail} alt="Thumbnail" className='p-3 md:max-w-md mx-auto'/>
+    <article className='bg-slate-50 m-2 px-2 py-7 shadow-md flex flex-col xl:flex-row mt-5 rounded-md'>
+      <img src={thumbnail} alt="Thumbnail" className='p-3 lg:max-w-lg h-fit mx-auto'/>
       
       <section>
         <h3 className='primary-text heading3'>{title}</h3>
