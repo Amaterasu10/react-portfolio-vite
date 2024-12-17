@@ -9,7 +9,7 @@ export default function Project({title, thumbnail, description, labels, links })
       
       <section>
         <h3 className='primary-text heading3'>{title}</h3>
-        <p className='p-3 pt-1'>
+        <p className='p-3 pt-1 text-lg'>
           {description}
         </p>
 
