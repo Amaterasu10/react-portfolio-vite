@@ -17,7 +17,7 @@ export default function Project({title, thumbnail, description, labels, links })
           <section className='flex mt-2'>
 
             <a href={links.github} target="_blank">
-              <div className='border-2 py-1 px-4 mx-2 flex items-center'>
+              <div className='border-2 py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200'>
                 
                 <span className='px-2'>Github</span>
                   <FaGithub fontSize={'1.3rem'}/>
@@ -25,7 +25,7 @@ export default function Project({title, thumbnail, description, labels, links })
             </a>
 
             <a href={links.live} target="_blank">
-              <div className='border-2 py-1 px-4 mx-2 flex items-center'>
+              <div className='border-2 py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200'>
                 <span className='px-2'>Live</span>
                 <BiLinkExternal fontSize={'1.3rem'}/>
               </div>
