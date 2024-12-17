@@ -123,6 +123,10 @@
 		@apply text-stone-700;
 	}
 
+	.primary-font {
+		font-family: Galindo Regular, sans-serif;
+	}
+
 	.heading {
 		@apply text-4xl md:text-6xl 2xl:text-7xl;
 	}
@@ -164,5 +168,17 @@
 @font-face {
 	font-family: 'waterbrush';
 	src: url('./assets/fonts/WaterBrush-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rubik Dirt';
+	src: url('./assets/fonts/RubikDirt-Regular.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Galindo Regular';
+	src: url('./assets/fonts/Galindo-Regular.ttf');
 	font-display: swap;
 }

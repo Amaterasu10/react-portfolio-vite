@@ -6,7 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         "poppins": ['Poppins', 'sans-serif'],
-        "poppins-semibold": ['Poppins-semibold', 'sans-serif']
+        "poppins-semibold": ['Poppins-semibold', 'sans-serif'],
+        "RubikDirt-Regular": ['Rubik Dirt', 'serif'],
+        "Galindo-Regular": ['Galindo', 'sans-serif'],
       },
       keyframes: {
         fadeInTop: {
