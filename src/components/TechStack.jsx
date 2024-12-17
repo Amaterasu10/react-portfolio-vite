@@ -24,7 +24,7 @@ import vite from '../favicon.svg'
 export default function TechStack() {
   return (
     <>
-        <h2 onClick={date} className="p-4 heading2 text-center">Tech Stack</h2>
+        <h2 onClick={date} className="p-4 pb-0 heading2 text-center">Tech Stack</h2>
         <section className="techstack-container">
             
             <div className='icon-container'>
