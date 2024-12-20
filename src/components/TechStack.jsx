@@ -25,7 +25,7 @@ export default function TechStack() {
   return (
     <>
         <h2 onClick={date} className="p-4 pb-0 heading2 text-center">Tech Stack</h2>
-        <section className="techstack-container">
+        <section className="techstack-container font-bold">
             
             <div className='icon-container'>
                 <SiHtml5 title='Html5' className='icon text-red-600' /> 
