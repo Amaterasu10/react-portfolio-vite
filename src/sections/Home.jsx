@@ -36,11 +36,11 @@ const Home = forwardRef(
 						sm:animate-[fadeInLeft_1s_ease-in]
 					"
 				>
-					<h2 className="lg:pb-2 text-center sm:text-left heading primary-text">
+					<h2 className="lg:pb-2 text-center sm:text-left heading primary-text text-stone-900">
 						Hi, I'm Hinrich
 					</h2>
 
-					<h2 className="text-center sm:text-left pb-1 heading2 pt-0 secondary-text font-poppins">
+					<h2 className="text-center sm:text-left pb-1 heading2 pt-0 secondary-text font-poppins text-stone-800 font-normal">
 						Welcome to my portfolio
 					</h2>
 
