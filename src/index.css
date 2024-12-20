@@ -20,6 +20,11 @@
 	border: 2px solid #ffffff;
 }
 
+* {
+	font-family: Poppins, sans-serif;
+	font-weight: 600;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

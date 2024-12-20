@@ -23,7 +23,7 @@ function App() {
 	const mainRef = useRef(null)
 
 	return (
-		<div className="App font-poppins font-semibold relative bg-slate-100">
+		<div className="App relative bg-slate-100">
 			<header className='fixed w-fit z-50'>
 				<TopNav
 					navs={[
