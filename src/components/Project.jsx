@@ -17,7 +17,7 @@ export default function Project({title, thumbnail, description, labels, links })
           <section className='flex mt-2'>
 
             <a href={links.github} target="_blank">
-              <div className='border-2 py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200 font-bold'>
+              <div className='border-2 border-solid border-black py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200 font-bold'>
                 
                 <span className='px-2'>Github</span>
                   <FaGithub fontSize={'1.3rem'}/>
@@ -25,7 +25,7 @@ export default function Project({title, thumbnail, description, labels, links })
             </a>
 
             <a href={links.live} target="_blank">
-              <div className='border-2 py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200 font-bold'>
+              <div className='border-2 border-solid border-black py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200 font-bold'>
                 <span className='px-2'>Live</span>
                 <BiLinkExternal fontSize={'1.3rem'}/>
               </div>
@@ -96,7 +96,7 @@ const TechLabels = ({labels}) => {
       return (
         <li
           key={idx}
-          className={`cursor-default border-2 py-1 px-4 mx-2 ${bg} ${hover}`}
+          className={`cursor-default border-2 border-solid border-black font-bold py-1 px-4 mx-2 ${bg} ${hover}`}
         >
           {label}
         </li>
