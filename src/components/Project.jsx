@@ -8,8 +8,8 @@ export default function Project({title, thumbnail, description, labels, links })
       <img src={thumbnail} alt="Thumbnail" className='p-3 lg:max-w-lg h-fit mx-auto'/>
       
       <section>
-        <h3 className='primary-text heading3'>{title}</h3>
-        <p className='p-3 pt-1 text-lg'>
+        <h3 className='primary-text heading3 text-stone-900'>{title}</h3>
+        <p className='p-3 pt-1 text-lg text-stone-800'>
           {description}
         </p>
 
