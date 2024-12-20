@@ -21,7 +21,7 @@ const About = forwardRef(
 					}
 					<div className='absolute inset-0'></div> */}
 	
-					<article className="about-me-container">
+					<article className="about-me-container my-10">
             
 						<h2 className='heading2 text-center'>
 							About me
