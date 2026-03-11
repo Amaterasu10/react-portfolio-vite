@@ -54,7 +54,7 @@ function App() {
 			</header>
 
 			<Toaster
-				position="bottom-left"
+				position="top-center"
 				reverseOrder={false}
 			/>
 
