@@ -96,8 +96,8 @@ const Contact = forwardRef(
 								></textarea>
 							</div>
 	
-							<div className='p-2 w-full text-center'>
-								<button className='button-link' type="submit">Send</button>
+							<div className='mt-2 w-full text-center'>
+								<button className='button-link w-full hover:text-white hover:bg-stone-900' type="submit">Send</button>
 							</div>
 							
 						</section>
