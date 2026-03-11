@@ -82,7 +82,7 @@ function App() {
 		const formData = new FormData(myForm);
 		
 		const email = formData.get('email')
-		const name = formData.get('email')
+		const name = formData.get('name')
 		const message = formData.get('message')
 
 		const someUndefined = (
