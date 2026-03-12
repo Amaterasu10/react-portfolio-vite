@@ -13,12 +13,11 @@ export default function Project({title, thumbnail, description, labels, links })
           {description}
         </p>
 
-        <section className='flex flex-wrap'>
+        <section className='flex flex-wrap items-center'>
           <section className='flex mt-2'>
 
             <a href={links.github} target="_blank">
               <div className='border-2 border-solid border-black py-1 px-4 mx-2 flex items-center hover:bg-stone-900 hover:text-slate-200'>
-                
                 <span className='px-2'>Github</span>
                   <FaGithub fontSize={'1.3rem'}/>
               </div>
