@@ -81,31 +81,19 @@ function App() {
 		const myForm = event.target;
 		const formData = new FormData(myForm);
 		
-		const email = formData.get('email')
-		const name = formData.get('name')
-		const message = formData.get('message')
-
-		const someUndefined = (
-			email === '' ||
-			name === '' ||
-			message === ''
-		)
-		
-		if(email ==='') toast.error('no email was provided')
-
-		fetch("", {
-			method: "POST",
-			headers: { "Content-Type": "application/x-www-form-urlencoded" },
-			body: new URLSearchParams(formData).toString(),
-		})
-		.then(
-			() => {
-				return toast.success('message sent')
-			}
-		)
-		.catch( 
-			error => toast.error(error) 
-		);
+		fetch("/", { // Use "/" or your site URL
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => {
+      toast.success('Message sent!');
+      myForm.reset(); // Add this to clear the form after success
+    })
+    .catch((error) => {
+      toast.error('Form submission failed');
+      console.error(error);
+    });
 	};
 
 }
